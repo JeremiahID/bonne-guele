@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./nav";
 import Svg from "./svg";
-import VariousSvg from "./svg-components/dictionarySvg";
+// import VariousSvg from "./svg-components/dictionarySvg"; 
 
 // function createCard(celebrity){
 //     return <Card
@@ -16,7 +16,7 @@ import VariousSvg from "./svg-components/dictionarySvg";
 function Header(){
     return (
         <div className="header d-flex">
-            <a href="http://" target="_blank" rel="noopener noreferrer">BONNE GUELE </a>
+            <a href="/" target="_blank" className="company-name"> BONNE GUELE </a>
 
             {/* the nav components */}
             <Nav />

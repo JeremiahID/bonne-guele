@@ -22,6 +22,7 @@ ul li a{
     padding: .5rem .5rem;
     font-family: Agency FB;
     font-weight: 900;
+    font-size: 1.2rem;
 }
 
 
@@ -38,8 +39,33 @@ a{
 
 .header{
     width: 100%;
-    background-color: #15151554;
     padding: 1rem;
+    border-bottom: 2px solid burlywood;
 }
 
+.company-name{
+    width: 25%;
+    /* background-color: darkgoldenrod; */
+    font-size: 2rem;
+}
+
+.navigation{
+    width: 50%;
+    /* background-color: burlywood; */
+}
+
+.navigation a:hover{
+    color: burlywood;
+}
+
+.svg-container{
+    width: 25%;
+    /* background-color: chocolate; */
+}
+
+.svg{
+    width: 2vw;
+    color: burlywood;
+    cursor: pointer;
+}
 
