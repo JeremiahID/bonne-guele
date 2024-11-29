@@ -1,11 +1,12 @@
 import React from "react";
+import heroImage from '../Images/hero.webp'
 
 
 
 function Hero(){
     return(
         <div>
-           <img src='' alt="hero-image" srcset="" />
+           <img src={heroImage} alt="hero-image" srcset="" />
         </div>
     )
 }
