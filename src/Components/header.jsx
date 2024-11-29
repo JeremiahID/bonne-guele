@@ -13,9 +13,6 @@ import VariousSvg from "./svg-components/dictionarySvg";
 //     />
 // }
 
-
-
-
 function Header(){
     return (
         <div className="header d-flex">
