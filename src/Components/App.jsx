@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./hero";
 import Header from "./header";
-import './App.css';
+import '../css/App.css';
 
 
 
@@ -9,7 +9,7 @@ import './App.css';
 function App(){
     return (
 
-        <div>
+        <div className="">
             <Header />
             <h1>test</h1>
             <Hero />

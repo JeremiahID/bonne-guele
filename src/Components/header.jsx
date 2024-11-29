@@ -5,7 +5,7 @@ import Nav from "./nav";
 
 function Header(){
     return (
-        <div className="header">
+        <div className="header d-flex">
             <a href="http://" target="_blank" rel="noopener noreferrer">BONNE GUELE </a>
 
             {/* the nav components */}
