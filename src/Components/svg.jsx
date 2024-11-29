@@ -3,11 +3,6 @@ import cartIcon from '../Images/cart.svg';
 import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
 
-function carticon(){
-    console.log('test')
-}
-
-
 
 function Svg(){
     return (

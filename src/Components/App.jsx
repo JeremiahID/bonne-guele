@@ -11,7 +11,7 @@ function App(){
 
         <div className="">
             <Header />
-            {/* <Hero /> */}
+            <Hero />
         </div>
     )
 }

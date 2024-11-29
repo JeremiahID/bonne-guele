@@ -5,8 +5,10 @@ import heroImage from '../Images/hero.webp'
 
 function Hero(){
     return(
-        <div>
-           <img src={heroImage} alt="hero-image" srcset="" />
+        <div className="hero-wrapper d-flex">
+           <div className="hero">
+            <img  src={heroImage} alt="hero-image"  />
+           </div>
         </div>
     )
 }

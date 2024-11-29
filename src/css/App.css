@@ -4,6 +4,11 @@
     padding: 0px;
     margin: 0px;
     box-sizing:border-box ;
+    /* overflow: hidden; */
+}
+
+body,html{
+    width: 100%;
 }
 
 .d-flex{
@@ -39,8 +44,14 @@ a{
 
 .header{
     width: 100%;
-    padding: 1rem;
+    height: 15vh;
+    padding: 1.4rem;
     border-bottom: 2px solid burlywood;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+
 }
 
 .company-name{
@@ -55,17 +66,42 @@ a{
 }
 
 .navigation a:hover{
+    transition: all .5s ease 0s;
     color: burlywood;
 }
 
 .svg-container{
     width: 25%;
-    /* background-color: chocolate; */
 }
 
 .svg{
     width: 2vw;
-    color: burlywood;
     cursor: pointer;
+}
+
+/* HERO */
+
+.hero-wrapper{
+    width: 100%;
+    min-height: 85vh;
+    box-sizing: border-box;
+    position: relative;
+    top: 15vh;
+}
+
+.hero{
+    width: 90%;
+    height: 95vh;
+    margin: 1rem 1rem;
+}
+
+.hero:hover{
+    transition: all .5s ease-in-out 0s;
+    box-shadow: 0 0 10px 2px #333;
+}
+
+.hero img{
+    width: 100%;
+    height: inherit;
 }
 
