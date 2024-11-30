@@ -18,6 +18,8 @@ body,html{
 }
 
 
+
+
 li{
     list-style-type: none;
     
@@ -28,6 +30,8 @@ ul li a{
     font-family: candara;
     font-weight: 900;
     font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
 }
 
 
@@ -62,7 +66,7 @@ a{
 
 .navigation{
     width: 50%;
-    /* background-color: burlywood; */
+ 
 }
 
 .navigation a:hover{

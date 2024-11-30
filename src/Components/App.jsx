@@ -10,7 +10,7 @@ import '../css/App.css';
 function App(){
     return (
 
-        <div className=" bg-dark-subtle">
+        <div className=" ">
             <Header />
             <Hero />
             <Footer />
