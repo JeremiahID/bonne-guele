@@ -14,7 +14,7 @@ function Nav(){
             </ul>
         </div>
     )
-}
+};
 
 
 
