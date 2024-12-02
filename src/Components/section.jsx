@@ -15,7 +15,6 @@ function Section(){
                         textContent = 'Real living spaces in which we like to meet you listen to you and advise you And even better: we dedicate our full attention to you during a personal appointment.An hour just for you in the shop of your choice'
                    />
                 </div>
-
             </div>
 
         </div>
