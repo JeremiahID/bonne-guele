@@ -17,6 +17,11 @@ body,html{
     align-items: center;
 }
 
+.flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 
 
 
@@ -106,6 +111,25 @@ a{
 .hero img{
     width: 100%;
     height: inherit;
+}
+
+
+/* BOUTIQUES */
+
+.boutiques-container{
+    width: 100%;
+    min-height: 110vh;
+}
+
+.boutiques{
+    width: 90%;
+    height: 100vh;
+
+}
+
+.boutiques-content{
+    height: inherit;
+    width: inherit;
 }
 
 
