@@ -6,8 +6,8 @@ import Logo from '../Images/logo.svg'
 function Header(){
     return (
         <div className="header d-flex">
-            <a href="/" target="_blank" className="company-name">
-                <img src={Logo} alt="" srcset="" />
+            <a href="/" target="_blank" className="company-name flex">
+                <img src={Logo} alt="Logo" className="Logo" />
             </a>
 
             {/* the nav components */}

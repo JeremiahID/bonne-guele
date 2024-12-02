@@ -34,7 +34,7 @@ ul li a{
     padding: .5rem .5rem;
     font-family: candara;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #333;
 }
@@ -63,6 +63,15 @@ a{
 
 }
 
+.Logo{
+    height: 95%;
+}
+.company-name{
+    width: 25%;
+    height: 50%;
+
+}
+
 
 .navigation{
     width: 50%;
@@ -80,6 +89,7 @@ a{
 
 .svg-container{
     width: 25%;
+    
 }
 
 .svg{
@@ -119,7 +129,6 @@ a{
 .boutiques-container{
     width: 100%;
     min-height: 110vh;
-    background-color: #333;
 }
 
 .boutiques{
