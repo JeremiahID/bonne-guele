@@ -1,7 +1,6 @@
 import React from "react";
 
 function Form(props){
-
     return(
         <div className="form  bg-danger">
             <form action="" method="post" className="flex flex-column  bg-success-subtle inherit">
@@ -13,6 +12,5 @@ function Form(props){
         </div>
     )
 };
-
 
 export default Form;
