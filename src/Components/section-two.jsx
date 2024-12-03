@@ -6,8 +6,6 @@ import creditcard from '../Images/credit-card.svg';
 import chat from '../Images/chat.svg';
 
 
-
-
 function SectionTwo(){
 
     return(
@@ -38,6 +36,5 @@ function SectionTwo(){
         </div>
     )
 };
-
 
 export default SectionTwo;
