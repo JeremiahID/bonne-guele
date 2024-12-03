@@ -5,10 +5,9 @@ function Btn(props){
 
     return (
         <div>
-            <button disabled="disabled" type='button'> {props.innerText} </button>
+            <button  type='button' className='btn border-2 border-dark mt-2 rounded-5'> {props.innerText} </button>
         </div>
     )
 };
-
 
 export default Btn;
