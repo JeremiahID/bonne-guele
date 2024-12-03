@@ -46,7 +46,17 @@ a{
     text-transform: uppercase;
     
 }
+button{
+    background-color: #081b5a  !important; 
+    color: whitesmoke !important;
+    border: 0;
+    font-family: candara !important;
+}
 
+button:hover{
+    transition: all .5s ease-in-out 0s !important;
+    background-color: #081b5ae5 !important;
+}
 .inherit{
     width: inherit;
     height: inherit;
@@ -144,6 +154,10 @@ a{
 .boutiques-content{
     height: 100%;
     width: 100%;
+}
+
+.boutiques-content-left{
+    background-color: #333;
 }
 
 .boutiques-content img{
