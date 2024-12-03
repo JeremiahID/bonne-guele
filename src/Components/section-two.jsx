@@ -20,7 +20,7 @@ function SectionTwo(){
             <Details 
                 svg = {loop}
                 name = 'FREE RETURNS'
-                innerText = 'Across The African Union From 200$  purchase'
+                innerText = '30 days to change your mind We will take care of everything'
             />
             <Details
                 svg = {creditcard}
