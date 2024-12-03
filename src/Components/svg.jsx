@@ -8,9 +8,9 @@ function Svg(){
     return (
         <div className='d-flex svg-container'>
 
-        <img  className ='svg' src={searchIcon} alt="cartIcon"  />
+        <img  className ='svg' src={searchIcon} alt="searchIcon"  />
         
-        <img  className ='svg' src={contactIcon} alt="cartIcon"  />
+        <img  className ='svg' src={contactIcon} alt="contactIcon"  />
 
          <img  className ='svg' src={cartIcon} alt="cartIcon"  />
               
