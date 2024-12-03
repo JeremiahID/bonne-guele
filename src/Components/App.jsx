@@ -3,6 +3,7 @@ import Hero from "./hero";
 import Header from "./header";
 import Footer from "./footer";
 import Section from "./section";
+import SectionTwo from "./section-two";
 import '../css/App.css';
 
 
@@ -15,6 +16,7 @@ function App(){
             <Header />
             <Hero />
             <Section />
+            <SectionTwo />
             <Footer />
         </div>
     )
