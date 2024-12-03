@@ -9,7 +9,7 @@ function Section(){
                 <div className=" boutiques-content  p-0 col-8  ">
                     <img src={boutiques} alt="boutiques-image" className="" />
                 </div>
-                <div className=" boutiques-content p-0 col-4 bg-danger-subtle">
+                <div className=" boutiques-content p-0 col-4 ">
                    <Form  
                         name = 'Our Store'
                         textContent = 'Real living spaces in which we like to meet you listen to you and advise you And even better: we dedicate our full attention to you during a personal appointment.An hour just for you in the shop of your choice'
