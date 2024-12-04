@@ -32,7 +32,6 @@ function SectionTwo(){
                 innerText = 'Across The African Union From 200$  purchase'     
             />
 
-
         </div>
     )
 };
