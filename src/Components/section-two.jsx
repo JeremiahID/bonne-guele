@@ -5,9 +5,7 @@ import loop from '../Images/loop.svg';
 import creditcard from '../Images/credit-card.svg';
 import chat from '../Images/chat.svg';
 
-
 function SectionTwo(){
-
     return(
         <div className="details my-5 row flex ">
             <Details 
