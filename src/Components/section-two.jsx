@@ -7,7 +7,7 @@ import chat from '../Images/chat.svg';
 
 function SectionTwo(){
     return(
-        <div className="details my-5 row flex ">
+        <div className="details my-4 row flex  ">
             <Details 
                 svg = {web}
                 name = 'FREE SHIPPING'
