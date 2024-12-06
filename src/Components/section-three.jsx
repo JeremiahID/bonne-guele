@@ -10,6 +10,8 @@ function SectionThree(props){
                 </div>
                 <div className=" boutiques-content p-0 col-6 bg-blue">
 
+                    
+
                 </div>
             </div>
 
