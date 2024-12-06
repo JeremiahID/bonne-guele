@@ -17,6 +17,7 @@ function App(){
             <Hero />
             <Section />
             <SectionTwo />
+            <Section />
             <Footer />
         </div>
     )
