@@ -14,7 +14,7 @@ function FormEmail(props){
 
                 <p className="p-2 text-white">{props.textContent}</p>
 
-                <input type="email" name="" id="email" placeholder="email" />
+                <input type="email" name="" id="email" placeholder="Email" className="input_email rounded rounded-2" />
 
                 <button className="btn " type="submit"> Register </button>
 

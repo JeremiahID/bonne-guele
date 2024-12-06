@@ -207,6 +207,18 @@ button:hover{
  height: 20vh;
 }
 
+.input_email{
+    width: 80%;
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid #ffff ;
+    padding: .5rem .5rem;
+}
+
+.input_email::placeholder{
+    padding-left: .2rem;
+    color: #fff;
+}
 
 
 
