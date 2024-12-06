@@ -6,11 +6,13 @@ function FormEmail(props){
         <div className="form ">
             <form action="" method="post" className="flex flex-column  boutiques-content-left inherit">
 
-                <img src={props.logoEmail} alt="B-image" className="email_logo" />
+               <div className="email_logo">
+                     <img src={props.logoEmail} alt="B-image" className="" />
+               </div>
                
-                <h3  className="text-uppercase fs-4 text-white">{props.name}</h3>
+                <h3  className=" p-4 text-uppercase fs-4 text-white">{props.name}</h3>
 
-                <p className="p-4 text-white">{props.textContent}</p>
+                <p className="p-2 text-white">{props.textContent}</p>
 
                 <input type="email" name="" id="email" placeholder="email" />
 

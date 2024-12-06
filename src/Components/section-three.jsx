@@ -11,7 +11,7 @@ function SectionThree(props){
                 </div>
                 <div className=" boutiques-content p-0 col-6 bg-blue">
                     <FormEmail 
-                        // logoEmail = {SvgEmailLogo}
+                        logoEmail = {SvgEmailLogo}
                         name = "Keep up to date with our upcoming collections"
                         textContent = 'You will know everything before anyone else.'
                     />
