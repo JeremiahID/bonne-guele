@@ -66,6 +66,10 @@ button:hover{
     background-color:  #004D80;
 }
 
+.text-blue{
+    color:#004D80;
+}
+
 
 
 /* End of derfault styling */
@@ -218,6 +222,19 @@ button:hover{
 .input_email::placeholder{
     padding-left: .2rem;
     color: #fff;
+}
+
+
+.button_email{
+    background-color: #fff !important;
+    color: #004D80 !important;
+    width: 50%;
+}
+
+.button_email:hover{
+    background-color: transparent !important;
+    border: 1px solid #fff !important;
+    color: #fff !important;
 }
 
 

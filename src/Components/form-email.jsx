@@ -16,14 +16,12 @@ function FormEmail(props){
 
                 <input type="email" name="" id="email" placeholder="Email" className="input_email rounded rounded-2" />
 
-                <button className="btn " type="submit"> Register </button>
+                <button className="btn button_email mt-5 rounded-5 p-2" type="submit"> Register </button>
 
 
             </form>
         </div>
     )
-}
-
-
+};
 
 export default FormEmail;
