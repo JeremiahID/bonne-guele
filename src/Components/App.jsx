@@ -6,7 +6,7 @@ import Section from "./section";
 import SectionTwo from "./section-two";
 import SectionThree from "./section-three";
 import boutiques from '../Images/boutiques.jpg';
-import newsletter from '../Images/lookbook-sec-eight.webp';
+import newsletter from '../Images/newsletter.jpg';
 import '../css/App.css';
 
 

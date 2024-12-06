@@ -62,6 +62,10 @@ button:hover{
     height: inherit;
 }
 
+.bg-blue{
+    background-color:  #004D80;
+}
+
 
 
 /* End of derfault styling */

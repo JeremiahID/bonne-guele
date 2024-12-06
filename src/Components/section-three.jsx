@@ -8,7 +8,7 @@ function SectionThree(props){
                 <div className=" boutiques-content  p-0 col-6  ">
                     <img src={props.img} alt="boutiques-image" className="" />
                 </div>
-                <div className=" boutiques-content p-0 col-6 bg-dark">
+                <div className=" boutiques-content p-0 col-6 bg-blue">
 
                 </div>
             </div>
