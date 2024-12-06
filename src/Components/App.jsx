@@ -4,6 +4,8 @@ import Header from "./header";
 import Footer from "./footer";
 import Section from "./section";
 import SectionTwo from "./section-two";
+import boutiques from '../Images/boutiques.jpg';
+import newsletter from '../Images/lookbook-sec-eight.webp';
 import '../css/App.css';
 
 
@@ -15,9 +17,13 @@ function App(){
         <div className=" ">
             <Header />
             <Hero />
-            <Section />
+            <Section 
+                img = {boutiques}
+            />
             <SectionTwo />
-            <Section />
+            <Section 
+                img = {newsletter}
+            />
             <Footer />
         </div>
     )
