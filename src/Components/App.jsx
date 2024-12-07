@@ -10,8 +10,6 @@ import newsletter from '../Images/newsletter.jpg';
 import '../css/App.css';
 
 
-
-
 function App(){
     return (
 
