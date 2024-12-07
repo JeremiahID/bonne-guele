@@ -13,10 +13,11 @@ function shippingItems(items){
 };
 
 
+
 function SectionTwo(){
     return(
         <div className="details my-4 row flex text-center ">
-            
+
             {/* USING THE MAP METHOD */}
             {shippingStorage.map(shippingItems)}
 
