@@ -1,34 +1,24 @@
 import React from "react";
 import Details from "./shipping";
-import web from '../Images/web.svg';
-import loop from '../Images/loop.svg';
-import creditcard from '../Images/credit-card.svg';
-import chat from '../Images/chat.svg';
+import shippingStorage from "./shippingcontainer";
+
+
+// creating the function to be pass into the map method.
+function shippingItems(items){
+    return <Details 
+        svg = {items.svg}
+        name = {items.name}
+        innerText = {items.innerText}
+    />
+};
+
 
 function SectionTwo(){
     return(
-        <div className="details my-4 row flex  ">
-            <Details 
-                svg = {web}
-                name = 'FREE SHIPPING'
-                innerText = 'Across The African Union From 200$  purchase'
-            />
-            <Details 
-                svg = {loop}
-                name = 'FREE RETURNS'
-                innerText = '30 days to change your mind We will take care of everything'
-            />
-            <Details
-                svg = {creditcard}
-                name = 'CREDIT CARDS'
-                innerText = 'Across The African Union From 200$  purchase'
+        <div className="details my-4 row flex text-center ">
             
-            />
-            <Details 
-                svg = {chat}
-                name = 'EXPRESS CUSTOMER SERVICE'
-                innerText = 'Across The African Union From 200$  purchase'     
-            />
+            {/* USING THE MAP METHOD */}
+            {shippingStorage.map(shippingItems)}
 
         </div>
     )
