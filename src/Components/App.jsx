@@ -35,6 +35,7 @@ function App(){
 
             {/* The footer section */}
             <Footer />
+            
         </div>
     )
 }
