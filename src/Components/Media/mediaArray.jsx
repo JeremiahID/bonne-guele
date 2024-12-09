@@ -1,24 +1,22 @@
-import sectionOneImageRight from '../Images/';
-import sectionOneImageleft from '../Images/web.svg';
+import web from './media-section-one-right.webp';
 
 
-
-const TwoLayer = [
+const MediaDataArray = [
     {
-        img: sectionOneImageRight,
+        img: web,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : ''
+        link : 'test'
         
 
     },
     {
-        img: sectionOneImageRight,
+        img: web,
         title: 'The BonneGueule Advent Calendar 2023',
         link : ''
     },
     
     {
-        img: sectionOneImageRight,
+        img: web,
         title: 'The BonneGueule Advent Calendar 2023',
         link : ''
     }
@@ -26,18 +24,7 @@ const TwoLayer = [
 
 ];
 
-const ThreeLayer = [
-    {
-
-    },
-    {
-
-    },
-    {
-
-    }
-];
 
 
-export default TwoLayer;
-export {ThreeLayer};
+
+export default MediaDataArray;
