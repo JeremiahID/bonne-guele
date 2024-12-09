@@ -13,7 +13,7 @@ function SectionTwo(){
                         name = {items.name}
                         innerText = {items.innerText}
                     />
-            })}
+            })};
 
         </div>
     )

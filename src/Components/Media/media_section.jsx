@@ -2,7 +2,11 @@ import React from "react";
 
 function MediaSection(){
     return (
-        <div>
+        <div className="">
+            <div className="row">
+
+
+            </div>
 
         </div>
     )
