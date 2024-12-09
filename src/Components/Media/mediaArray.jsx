@@ -12,13 +12,13 @@ const MediaDataArray = [
     {
         img: web,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : ''
+        link : 'text'
     },
     
     {
         img: web,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : ''
+        link : 'test'
     }
 
 
