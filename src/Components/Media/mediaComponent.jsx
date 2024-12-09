@@ -1,3 +1,5 @@
+import web from '../Images/web.svg';
+import web from '../Images/web.svg';
 
 
 
