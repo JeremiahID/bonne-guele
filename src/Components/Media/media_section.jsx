@@ -9,8 +9,8 @@ function MediaSection(props){
                 </div>
                 <div className="media-component-links flex justify-content-start">
                     <a className="media-component-link" href="">{props.link} </a>
-                    <a href="">{props.link} </a>
-                    <a href="">{props.link} </a>
+                    <a className="media-component-link" href="">{props.link} </a>
+                    <a className="media-component-link" href="">{props.link} </a>
                 </div >
                 <div className="media-component-text">
                     <h1 className="fs-4 text-left ">{props.title}</h1>

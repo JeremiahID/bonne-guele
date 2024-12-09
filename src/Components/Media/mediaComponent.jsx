@@ -1,6 +1,5 @@
 import React from "react";
 import MediaSection from "./media_section";
-import web from './media-section-one-left.webp';
 import MediaDataArray from "./mediaArray";
 
 
