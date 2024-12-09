@@ -1,22 +1,24 @@
-import web from './media-section-one-right.webp';
+import right  from './media-section-one-right.webp';
+import middle from './shop-section-six.webp';
+import left from './media-section-one-left.webp';
 
 
 const MediaDataArray = [
     {
-        img: web,
+        img: left,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
         
 
     },
     {
-        img: web,
+        img: middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'text'
+        link : 'test'
     },
     
     {
-        img: web,
+        img: right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     }
