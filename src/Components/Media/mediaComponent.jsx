@@ -1,33 +1,16 @@
-import sectionOneImageRight from '../Images/';
-import sectionOneImageleft from '../Images/web.svg';
+import React from "react";
+import MediaSection from "./media_section";
+
+function MediaComponent(){
+    return (
+        <div className="row bg-dark media m-0">
+            {/* <MediaSection />
+            <MediaSection />
+            <MediaSection /> */}
+        </div>
+    )
+}
 
 
 
-const TwoLayer = [
-    {
-        img: sectionOneImageRight,
-        
-
-    },
-
-    {
-        img: sectionOneImageRight,
-    }
-
-];
-
-const ThreeLayer = [
-    {
-
-    },
-    {
-
-    },
-    {
-
-    }
-];
-
-
-export default TwoLayer;
-export {ThreeLayer};
+export default MediaComponent;

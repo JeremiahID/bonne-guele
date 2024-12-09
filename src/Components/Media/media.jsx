@@ -1,13 +1,13 @@
 import React  from "react";
 import Header from "../header";
-import MediaSection from "./media_section";
+import MediaComponent from "./mediaComponent";
 
 
 function Media(){
     return (
         <div>
             <Header />
-            <MediaSection />
+            <MediaComponent />
 
         </div>
     )
