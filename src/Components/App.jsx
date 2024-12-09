@@ -1,4 +1,5 @@
 import React from "react";
+import Media from "./Media/media";
 import Hero from "./hero";
 import Header from "./header";
 import Footer from "./footer";
@@ -15,26 +16,24 @@ function App(){
 
         <div className=" ">
             {/* the header */}
-            <Header />
+            {/* <Header /> */}
 
             {/* The hero image */}
-            <Hero />
+            {/* <Hero /> */}
 
             {/* The first section */}
-            <Section 
-                img = {boutiques}
-            />
+            {/* <Section img = {boutiques}/> */}
 
             {/* The section section */}
-            <SectionTwo />
+            {/* <SectionTwo /> */}
 
             {/* The second Section */}
-            <SectionThree 
-                img = {newsletter}
-            />
+            {/* <SectionThree img = {newsletter}/> */}
 
             {/* The footer section */}
-            <Footer />
+            {/* <Footer /> */}
+
+            <Media />
             
         </div>
     )
