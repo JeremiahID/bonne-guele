@@ -15,7 +15,7 @@ function mediaItem(mediaitems){
 
 function MediaComponent(){
     return (
-        <div className="row bg-danger-subtle media m-0">
+        <div className="row  media m-0">
             {MediaDataArray.map(mediaItem)}
 
         </div>

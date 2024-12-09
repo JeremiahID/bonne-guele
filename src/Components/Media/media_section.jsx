@@ -2,7 +2,7 @@ import React from "react";
 
 function MediaSection(props){
     return (
-        <div className="col-4 flex bg-success p-0 border">
+        <div className="col-4 flex border">
             <div className=" flex flex-column  media-component ">
                 <div className=" media-component-img bg-danger">
                     <img className="" src={props.img} alt="image"/>
