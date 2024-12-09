@@ -5,6 +5,7 @@ import left from './media-section-one-left.webp';
 
 const MediaDataArray = [
     {
+        id : 1,
         img: left,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
@@ -12,12 +13,14 @@ const MediaDataArray = [
 
     },
     {
+        id : 2,
         img: middle,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     },
     
     {
+        id: 3,
         img: right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'

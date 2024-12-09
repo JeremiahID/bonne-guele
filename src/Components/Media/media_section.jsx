@@ -7,11 +7,13 @@ function MediaSection(props){
                 <div className=" media-component-img ">
                     <img className="" src={props.img} alt="image"/>
                 </div>
-                <div className="media-component-link">
+                <div className="media-component-links flex justify-content-start">
+                    <a className="media-component-link" href="">{props.link} </a>
+                    <a href="">{props.link} </a>
                     <a href="">{props.link} </a>
                 </div >
                 <div className="media-component-text">
-                    <h1 className="fs-4 text-center text-wrap ">{props.title}</h1>
+                    <h1 className="fs-4 text-left ">{props.title}</h1>
                 </div>
             </div>
         </div>
