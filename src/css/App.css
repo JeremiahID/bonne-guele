@@ -245,7 +245,7 @@ button:hover{
 
 /* MEDIA SECTION */
 .media{
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
 }
 

@@ -8,6 +8,8 @@ import SectionTwo from "./section-two";
 import SectionThree from "./section-three";
 import boutiques from '../Images/boutiques.jpg';
 import newsletter from '../Images/newsletter.jpg';
+import HomeHero from '../Images/hero-brown.webp';
+
 import '../css/App.css';
 
 
@@ -19,7 +21,9 @@ function App(){
             {/* <Header /> */}
 
             {/* The hero image */}
-            {/* <Hero /> */}
+            {/* <Hero 
+                Hero = {HomeHero}
+            /> */}
 
             {/* The first section */}
             {/* <Section img = {boutiques}/> */}
