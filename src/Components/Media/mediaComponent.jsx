@@ -4,7 +4,7 @@ import MediaDataArray from "./mediaArray";
 
 
 function mediaItem(mediaitems){
-    return<MediaSection 
+    return <MediaSection 
         key = {mediaitems.id}
         img = {mediaitems.img}
         title = {mediaitems.title}
@@ -20,7 +20,7 @@ function MediaComponent(){
 
         </div>
     )
-}
+};
 
 
 

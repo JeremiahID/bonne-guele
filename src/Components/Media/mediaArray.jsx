@@ -106,7 +106,4 @@ const MediaDataArray = [
 
 ];
 
-
-
-
 export default MediaDataArray;
