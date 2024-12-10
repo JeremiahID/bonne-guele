@@ -17,6 +17,7 @@ const MediaDataArray = [
         
 
     },
+
     {
         id : 2,
         img: media_section_one_middle,
@@ -30,6 +31,7 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     },
+
     {
         id : 4,
         img: media_section_two_right,
@@ -38,6 +40,7 @@ const MediaDataArray = [
         
 
     },
+
     {
         id : 5,
         img: media_section_two_middle,
@@ -51,6 +54,7 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     },
+
     {
         id : 7,
         img: media_section_three_right,
@@ -59,9 +63,33 @@ const MediaDataArray = [
         
 
     },
+
     {
         id : 8,
         img: media_section_three_middle,
+        title: 'The BonneGueule Advent Calendar 2023',
+        link : 'test'
+    },
+    
+    {
+        id: 9,
+        img: media_section_four_left,
+        title: 'The BonneGueule Advent Calendar 2023',
+        link : 'test'
+    },
+
+    {
+        id : 7,
+        img: media_section_four_right,
+        title: 'The BonneGueule Advent Calendar 2023',
+        link : 'test'
+        
+
+    },
+
+    {
+        id : 8,
+        img: media_section_four_middle,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     },
