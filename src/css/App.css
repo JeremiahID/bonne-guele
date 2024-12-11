@@ -164,6 +164,10 @@ button:hover{
     font-family: candara ;
 }
 
+.close-cart img{
+    cursor: pointer;
+}
+
 .cart-icon{
     width: 2vw;
 }
