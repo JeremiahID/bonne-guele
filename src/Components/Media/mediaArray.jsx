@@ -13,6 +13,8 @@ import media_section_four_left from './media-section-four-left.webp';
 import media_section_five_right  from './media-section-five-right.webp';
 import media_section_five_middle from './media-section-five-middle.webp';
 import media_section_five_left from './media-section-five-left.webp';
+
+// array for the various media contents
 const MediaDataArray = [
     {
         id : 1,
