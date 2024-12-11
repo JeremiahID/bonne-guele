@@ -126,7 +126,23 @@ button:hover{
 }
 
 /* CART */
+.cart-wrapper{
+    background-color: #00000098;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
 
+.cart-container{
+    background-color: #ffffff;
+    width: 36%;
+    height: 100%;
+}
+
+body .no-scroll{
+    overflow: hidden;
+
+}
 
 
 

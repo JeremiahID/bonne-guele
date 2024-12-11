@@ -16,9 +16,22 @@ import '../css/App.css';
 function App(){
     return (
 
-        <div className=" ">
+        <div className=" overflow-hidden">
 
-            <div className="cart-wrapper position-absolute top-0 end-0 " >
+            <div className="cart-wrapper position-absolute top-0 end-0 no-scroll" >
+                <div className="cart-container  position-absolute top-0 end-0 ">
+                    <div className="cart-head">
+                        <div className="cart-logo">
+
+                        </div>
+
+
+                        <div className="close-cart">
+                            
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
             {/* the header */}
@@ -41,7 +54,7 @@ function App(){
             {/* The footer section */}
             {/* <Footer /> */}
 
-            <Media />
+            {/* <Media /> */}
             
         </div>
     )
