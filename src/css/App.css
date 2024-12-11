@@ -135,14 +135,29 @@ button:hover{
 
 .cart-container{
     background-color: #ffffff;
-    width: 36%;
+    width: 37%;
     height: 100%;
 }
 
-body .no-scroll{
+.cart-head {
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid #33333352;
+}
+
+.cart-icons-container{
+    width: 80%;
+    height: 50%;
+}
+
+.cart-icon{
+    width: 2vw;
+}
+
+/* body .no-scroll{
     overflow: hidden;
 
-}
+} */
 
 
 
