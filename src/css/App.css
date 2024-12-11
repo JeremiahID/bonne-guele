@@ -76,6 +76,10 @@ button:hover{
      font-size: .7rem;
 }
 
+.lh-2{
+line-height: 5px;
+}
+
 
 
 /* End of derfault styling */
@@ -146,8 +150,13 @@ button:hover{
 }
 
 .cart-icons-container{
-    width: 80%;
+    width: 90%;
     height: 50%;
+}
+
+.cart-logo{
+    width: 25%;
+    background-color: #3333331c;
 }
 
 .cart-icon{

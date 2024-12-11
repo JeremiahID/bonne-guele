@@ -10,6 +10,7 @@ import boutiques from '../Images/boutiques.jpg';
 import newsletter from '../Images/newsletter.jpg';
 import HomeHero from '../Images/hero-brown.webp';
 import close from "../Images/close-cart.svg"
+import cart from "../Images/cart.svg"
 
 import '../css/App.css';
 
@@ -22,17 +23,19 @@ function App(){
             <div className="cart-wrapper position-absolute top-0 end-0 no-scroll" >
                 <div className="cart-container  position-absolute top-0 end-0 ">
                     <div className="cart-head flex ">
-                        <div className="cart-icons-container bg-dark">
-                            {/* <div className="cart-logo flex justify-content-evenly align-"> 
-                                <img className=" close-cart-icon cart-icon bg-danger-subtle" src={close} alt="close cart icon" /> 
-                                <p className="text-capitalize fw-bold fs-5 bg-dark-subtle">cart</p>
-                            </div> */}
+                        <div className="cart-icons-container bg-success-subtle flex justify-content-between  ">
+                            <div className="cart-logo flex justify-content-evenly "> 
+                                <img className=" close-cart-icon cart-icon " src={cart} alt="close cart icon" /> 
+                                <div className="cart-name bg-white flex  w-75">
+                                    <p className="text-capitalize fw-bold bg-danger ">cart</p>
+                                </div>
+                            </div>
 
 
-                            {/* <div className="close-cart"> */}
+                            <div className="close-cart">
                                 {/* <!-- CLOSE CART --> */}
-                                {/* <img className=" close-cart-icon cart-icon" src={close} alt="close cart icon" /> */}
-                            {/* </div> */}
+                                <img className=" close-cart-icon cart-icon" src={close} alt="close cart icon" />
+                            </div>
                         </div>
                     </div>
 
