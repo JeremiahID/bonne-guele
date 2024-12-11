@@ -31,7 +31,7 @@ const MediaDataArray = [
     {
         id : 1,
         img: media_section_one_right,
-        title: 'The BonneGueule Advent Calendar 2023',
+        title: 'Our Team outfit for christmas Eve',
         link : 'test'
         
 
@@ -234,7 +234,6 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     }
-
 
 ];
 

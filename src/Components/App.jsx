@@ -17,6 +17,10 @@ function App(){
     return (
 
         <div className=" ">
+
+            <div className="cart-wrapper position-absolute top-0 end-0 " >
+
+            </div>
             {/* the header */}
             {/* <Header /> */}
 

@@ -13,7 +13,7 @@ function MediaSection(props){
                     <a className="media-component-link" href="">{props.link} </a>
                 </div >
                 <div className="media-component-text">
-                    <h1 className="fs-6 text-left ">{props.title}</h1>
+                    <h1 className="fs-6 text-capitalize text-left ">{props.title}</h1>
                 </div>
             </div>
         </div>
