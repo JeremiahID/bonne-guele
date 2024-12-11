@@ -22,7 +22,9 @@ import media_section_seven_left from './media-section-seven-left.webp';
 import media_section_eight_right  from './media-section-eight-right.webp';
 import media_section_eight_middle from './media-section-eight-middle.webp';
 import media_section_eight_left from './media-section-eight-left.webp';
-
+import media_section_nine_right  from './media-section-nine-right.webp';
+import media_section_nine_middle from './media-section-nine-middle.webp';
+import media_section_nine_left from './media-section-nine-left.webp';
 
 // array for the various media contents
 const MediaDataArray = [
@@ -206,6 +208,29 @@ const MediaDataArray = [
     {
         id: 24,
         img: media_section_eight_left,
+        title: 'The BonneGueule Advent Calendar 2023',
+        link : 'test'
+    },
+
+    {
+        id : 25,
+        img: media_section_nine_right,
+        title: 'The BonneGueule Advent Calendar 2023',
+        link : 'test'
+        
+
+    },
+
+    {
+        id : 26,
+        img: media_section_nine_middle,
+        title: 'The BonneGueule Advent Calendar 2023',
+        link : 'test'
+    },
+    
+    {
+        id: 27,
+        img: media_section_nine_left,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
     }
