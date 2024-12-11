@@ -77,7 +77,11 @@ button:hover{
 }
 
 .lh-2{
-line-height: 5px;
+    line-height: 5px;
+}
+
+.font-fc{
+    font-family: candara;
 }
 
 
@@ -156,11 +160,27 @@ line-height: 5px;
 
 .cart-logo{
     width: 25%;
-    background-color: #3333331c;
+    height: 100%;
+    font-family: candara ;
 }
 
 .cart-icon{
     width: 2vw;
+}
+
+.cart-body{
+    height: 85%;
+    /* background-color: #004D80; */
+}
+
+.btn-a{
+    background-color: #181717;
+    padding: .7rem  1.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-family: candara light !important;
+
 }
 
 /* body .no-scroll{
