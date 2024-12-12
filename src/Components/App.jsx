@@ -19,6 +19,7 @@ function App(){
         <div className="">
 
             <Cart />
+            
             {/* the header */}
             {/* <Header /> */}
 
