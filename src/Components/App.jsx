@@ -1,5 +1,6 @@
 import React from "react";
 import Media from "./Media/media";
+import Agenda from "./Agenda/agenda";
 import Hero from "./hero";
 import Header from "./header";
 import Footer from "./footer";
@@ -18,29 +19,37 @@ function App(){
 
         <div className="">
 
+
+            {/* THE CART SECTION */}
             {/* <Cart /> */}
             
-            {/* the header */}
+                {/* the header */}
             {/* <Header /> */}
 
-            {/* The hero image */}
+             {/* The hero image */}
             {/* <Hero 
                 Hero = {HomeHero}
             /> */}
 
-            {/* The first section */}
+             {/* The first section */}
             {/* <Section img = {boutiques}/> */}
 
-            {/* The section section */}
+             {/* The section section */}
             {/* <SectionTwo /> */}
 
-            {/* The second Section */}
+             {/* The second Section */}
             {/* <SectionThree img = {newsletter}/> */}
 
-            {/* The footer section */}
+                {/* The footer section */}
             {/* <Footer /> */}
 
-            <Media />
+
+                {/* Media section */}
+            {/* <Media /> */}
+
+            {/* Agenda page */}
+            <Agenda />
+
             
         </div>
     )
