@@ -7,14 +7,14 @@ function Agenda(){
             <Header />
 
             <div className=''>
-                <div>
-                    <p className='fs-6'> 
+                <div className=' bg-dark-subtle '>
+                    <p className=' flex'> 
                         <a href="http://" target="_blank" rel="noopener noreferrer">
-
+                            Reception / 
                         </a>
-                        <p>
-                            Our collection for Tommorrow
-                        </p>
+                        <p className='font-fc p-0 m-0'>
+                             Our collection for Tommorrow
+                        </p> 
                     </p>
                 </div>
             </div>
