@@ -21,26 +21,26 @@ function App(){
             {/* <Cart /> */}
             
             {/* the header */}
-            <Header />
+            {/* <Header /> */}
 
             {/* The hero image */}
-            <Hero 
+            {/* <Hero 
                 Hero = {HomeHero}
-            />
+            /> */}
 
             {/* The first section */}
-            <Section img = {boutiques}/>
+            {/* <Section img = {boutiques}/> */}
 
             {/* The section section */}
-            <SectionTwo />
+            {/* <SectionTwo /> */}
 
             {/* The second Section */}
-            <SectionThree img = {newsletter}/>
+            {/* <SectionThree img = {newsletter}/> */}
 
             {/* The footer section */}
-            <Footer />
+            {/* <Footer /> */}
 
-            {/* <Media /> */}
+            <Media />
             
         </div>
     )
