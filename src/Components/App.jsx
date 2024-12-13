@@ -11,34 +11,34 @@ import newsletter from '../Images/newsletter.jpg';
 import HomeHero from '../Images/hero-brown.webp';   
 import Cart from "./cart";
 import '../css/App.css';
-
+                                                                                                                                                                            
 
 function App(){
     return (
 
         <div className="">
 
-            <Cart />
+            {/* <Cart /> */}
             
             {/* the header */}
-            {/* <Header /> */}
+            <Header />
 
             {/* The hero image */}
-            {/* <Hero 
+            <Hero 
                 Hero = {HomeHero}
-            /> */}
+            />
 
             {/* The first section */}
-            {/* <Section img = {boutiques}/> */}
+            <Section img = {boutiques}/>
 
             {/* The section section */}
-            {/* <SectionTwo /> */}
+            <SectionTwo />
 
             {/* The second Section */}
-            {/* <SectionThree img = {newsletter}/> */}
+            <SectionThree img = {newsletter}/>
 
             {/* The footer section */}
-            {/* <Footer /> */}
+            <Footer />
 
             {/* <Media /> */}
             
