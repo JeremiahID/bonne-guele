@@ -72,6 +72,10 @@ button:hover{
     color:#004D80;
 }
 
+.text-blue-dark{
+    color:#021f33;
+}
+
 .fs-8{
      font-size: .7rem;
 }
@@ -83,6 +87,7 @@ button:hover{
 .font-fc{
     font-family: candara;
 }
+
 
 
 
@@ -359,6 +364,20 @@ button:hover{
     height: 15%;
     width:inherit;
 }
+
+/* AGENDA SECTION */
+.agenda-section-one-wrapper{
+    width: 100%;
+    height: 50vh;
+    /* background-color: #004D80; */
+}
+.agenda-section-one{
+    width: 80%;
+    height: 50vh;
+    border-bottom: 1px solid #333;
+}
+
+
 
 
 
