@@ -54,7 +54,7 @@ function Agenda(){
             </div>
             
             <SectionTwo />
-            
+
             <Footer />
 
         </div>
