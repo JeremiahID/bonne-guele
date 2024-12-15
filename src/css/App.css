@@ -380,8 +380,17 @@ button:hover{
 }
 
 .agenda-section-two-wrapper{
-
+    width: 100%;
+    height: 80vh;
+    background-color: #021f33;
 }
+
+.agenda-section-two-container{
+    width: 90%;
+    height: 80vh;
+    background-color: #333;
+}
+
 
 
 

@@ -2,6 +2,8 @@ import React from 'react';
 import Header from '../header';
 import Footer from '../footer';
 import SectionTwo from '../section-two';
+import agenda_image_left from './agenda-section-two-left.webp';
+import agenda_image_left from './agenda-section-two-left.webp'
 
 
 function Agenda(){
@@ -23,7 +25,17 @@ function Agenda(){
                     <h1 className='text-uppercase font-fc fs-1 text-blue-dark'>Our collections of tomorrow </h1>
                 </div>
             </div>
-            <div className=' agenda-section-two-wrapper'>
+            <div className=' agenda-section-two-wrapper flex'>
+
+                <div className='agenda-section-two-container'>
+                    <div className='agenda-section-two-left'>
+
+                    </div>
+
+                    <div className='agenda-section-two-right'>
+                        
+                    </div>
+                </div>
 
             </div>
             
