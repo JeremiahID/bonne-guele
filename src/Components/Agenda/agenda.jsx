@@ -23,6 +23,9 @@ function Agenda(){
                     <h1 className='text-uppercase font-fc fs-1 text-blue-dark'>Our collections of tomorrow </h1>
                 </div>
             </div>
+            <div className=' agenda-section-two-wrapper'>
+
+            </div>
             
             <SectionTwo />
             <Footer />

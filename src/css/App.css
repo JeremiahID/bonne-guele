@@ -366,6 +366,8 @@ button:hover{
 }
 
 /* AGENDA SECTION */
+
+
 .agenda-section-one-wrapper{
     width: 100%;
     height: 50vh;
@@ -375,6 +377,10 @@ button:hover{
     width: 80%;
     height: 50vh;
     border-bottom: 1px solid #333;
+}
+
+.agenda-section-two-wrapper{
+
 }
 
 
