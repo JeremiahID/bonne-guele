@@ -391,20 +391,20 @@ button:hover{
     /* background-color: #333; */
 }
 
-.agenda-section-two-left {
-    background-image: url('../Components/Agenda/agenda-section-two-left.webp');
+.agenda-background-default{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.agenda-section-two-left {
+    background-image: url('../Components/Agenda/agenda-section-two-left.webp');
     width: 50%; 
     height: 100vh;
 }
 
 .agenda-section-two-right {
     background-image: url('../Components/Agenda/agenda-section-two-right.webp');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 50%; 
     height: 100vh;
 }
@@ -412,8 +412,6 @@ button:hover{
 .agenda-section-three-container{
     background-image: url('../Components/Agenda/agenda-section-three.webp');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 90%;
     height: 100vh;
 }

@@ -32,11 +32,11 @@ function Agenda(){
             <div className=' agenda-section-two-wrapper flex '>
 
                 <div className='agenda-section-two-container flex justify-content-between'>
-                    <div className='agenda-section-two-left'>
+                    <div className='agenda-section-two-left agenda-background-default'>
                        {/* background image from csss */}
                     </div>
 
-                    <div className='agenda-section-two-right '>
+                    <div className='agenda-section-two-right agenda-background-default'>
                     {/* background image from csss */}
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function Agenda(){
                         {/* Agenda section two */}
             <div className=' agenda-section-three-wrapper flex'>
 
-                <div className='agenda-section-three-container flex'>
+                <div className='agenda-section-three-container agenda-background-default flex'>
                         {/* background image from csss */}
 
                 </div>
