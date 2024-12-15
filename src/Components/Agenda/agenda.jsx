@@ -43,7 +43,7 @@ function Agenda(){
 
             </div>
 
-                        {/* Agenda section two */}
+            {/* Agenda section two */}
             <div className=' agenda-section-three-wrapper flex'>
 
                 <div className='agenda-section-three-container agenda-background-default flex'>
@@ -54,6 +54,7 @@ function Agenda(){
             </div>
             
             <SectionTwo />
+            
             <Footer />
 
         </div>
