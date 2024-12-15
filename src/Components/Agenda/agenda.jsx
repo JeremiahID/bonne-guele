@@ -3,7 +3,8 @@ import Header from '../header';
 import Footer from '../footer';
 import SectionTwo from '../section-two';
 import agenda_image_left from './agenda-section-two-left.webp';
-import agenda_image_left from './agenda-section-two-left.webp'
+import agenda_image_right from './agenda-section-two-right.webp';
+import agenda_section_three_image from './agenda-section-three.webp';
 
 
 function Agenda(){
@@ -11,6 +12,7 @@ function Agenda(){
         <div>
             <Header />
 
+            {/* Agenda section one */}
             <div className=' agenda-section-one-wrapper flex'>
                 <div className='agenda-section-one  m-0 flex flex-column justify-content-around'>
                     <p className=' flex'> 
@@ -25,16 +27,28 @@ function Agenda(){
                     <h1 className='text-uppercase font-fc fs-1 text-blue-dark'>Our collections of tomorrow </h1>
                 </div>
             </div>
+
+            {/* Agenda section two */}
+            <div className=' agenda-section-two-wrapper flex bg-danger mt-4'>
+
+                <div className='agenda-section-two-container flex bg-dark-subtle justify-content-between'>
+                    <div className='agenda-section-two-left bg-danger border'>
+                        {/* <img className='inherit' src={agenda_image_left} alt="agenda_image_left"  /> */}
+                    </div>
+
+                    <div className='agenda-section-two-right bg-danger-subtle'>
+                    {/* <img className='inherit' src={agenda_image_right} alt="agenda_image_right" /> */}
+                    </div>
+                </div>
+
+            </div>
+
+                        {/* Agenda section two */}
             <div className=' agenda-section-two-wrapper flex'>
 
-                <div className='agenda-section-two-container'>
-                    <div className='agenda-section-two-left'>
+                <div className='agenda-section-two-container flex'>
+                        <img className='inherit' src={agenda_section_three_image} alt="agenda_image_left"  />
 
-                    </div>
-
-                    <div className='agenda-section-two-right'>
-                        
-                    </div>
                 </div>
 
             </div>
