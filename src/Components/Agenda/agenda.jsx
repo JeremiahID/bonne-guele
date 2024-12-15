@@ -29,25 +29,25 @@ function Agenda(){
             </div>
 
             {/* Agenda section two */}
-            <div className=' agenda-section-two-wrapper flex bg-danger mt-4'>
+            <div className=' agenda-section-two-wrapper flex '>
 
-                <div className='agenda-section-two-container flex bg-dark-subtle justify-content-between'>
-                    <div className='agenda-section-two-left bg-danger border'>
-                        {/* <img className='inherit' src={agenda_image_left} alt="agenda_image_left"  /> */}
+                <div className='agenda-section-two-container flex justify-content-between'>
+                    <div className='agenda-section-two-left'>
+                       {/* background image from csss */}
                     </div>
 
-                    <div className='agenda-section-two-right bg-danger-subtle'>
-                    {/* <img className='inherit' src={agenda_image_right} alt="agenda_image_right" /> */}
+                    <div className='agenda-section-two-right '>
+                    {/* background image from csss */}
                     </div>
                 </div>
 
             </div>
 
                         {/* Agenda section two */}
-            <div className=' agenda-section-two-wrapper flex'>
+            <div className=' agenda-section-three-wrapper flex'>
 
-                <div className='agenda-section-two-container flex'>
-                        <img className='inherit' src={agenda_section_three_image} alt="agenda_image_left"  />
+                <div className='agenda-section-three-container flex'>
+                        {/* background image from csss */}
 
                 </div>
 
