@@ -14,7 +14,7 @@ function Agenda(){
 
             {/* Agenda section one */}
             <div className=' agenda-section-one-wrapper flex'>
-                <div className='agenda-section-one m-0 flex flex-column justify-content-around'>
+                <div className='agenda-section-one m-0 flex flex-column justify-content-around '>
                     <p className=' flex'> 
                         <a href="http://" target="_blank" rel="noopener noreferrer" className='text-decoration-none text-black'>
                             Reception / 
