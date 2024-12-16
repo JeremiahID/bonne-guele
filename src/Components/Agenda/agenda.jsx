@@ -10,6 +10,7 @@ import agenda_section_three_image from './agenda-section-three.webp';
 function Agenda(){
     return (
         <div>
+            {/* calling the haeder component */}
             <Header />
 
             {/* Agenda section one */}
