@@ -54,9 +54,10 @@ function Agenda(){
 
             </div>
             
-            {/* calling the haeder component */}
+            {/* calling thesection two component */}
             <SectionTwo />
 
+            {/* calling the footer component */}
             <Footer />
 
         </div>
