@@ -54,6 +54,7 @@ function Agenda(){
 
             </div>
             
+            {/* calling the haeder component */}
             <SectionTwo />
 
             <Footer />
