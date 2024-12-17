@@ -11,7 +11,7 @@ import Agenda from "./Agenda/agenda";
 // import newsletter from '../Images/newsletter.jpg';
 // import HomeHero from '../Images/hero-brown.webp';   
 // import Cart from "./cart";
-import '../css/App.css';
+import '../css/App.css';    
                                                                                                                                                                             
 
 function App(){
