@@ -26,5 +26,4 @@ const shippingStorage = [
     }
 ];
 
-
 export default shippingStorage;
