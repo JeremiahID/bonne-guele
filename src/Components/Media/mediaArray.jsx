@@ -33,8 +33,6 @@ const MediaDataArray = [
         img: media_section_one_right,
         title: 'Our Team outfit for christmas Eve',
         link : 'test'
-        
-
     },
 
     {
@@ -56,8 +54,6 @@ const MediaDataArray = [
         img: media_section_two_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -79,8 +75,6 @@ const MediaDataArray = [
         img: media_section_three_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -102,8 +96,6 @@ const MediaDataArray = [
         img: media_section_four_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -125,8 +117,6 @@ const MediaDataArray = [
         img: media_section_five_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -148,8 +138,6 @@ const MediaDataArray = [
         img: media_section_six_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -171,8 +159,6 @@ const MediaDataArray = [
         img: media_section_seven_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -194,8 +180,6 @@ const MediaDataArray = [
         img: media_section_eight_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
@@ -217,8 +201,6 @@ const MediaDataArray = [
         img: media_section_nine_right,
         title: 'The BonneGueule Advent Calendar 2023',
         link : 'test'
-        
-
     },
 
     {
