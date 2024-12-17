@@ -2,9 +2,7 @@ import React from 'react';
 import Header from '../header';
 import Footer from '../footer';
 import SectionTwo from '../section-two';
-import agenda_image_left from './agenda-section-two-left.webp';
-import agenda_image_right from './agenda-section-two-right.webp';
-import agenda_section_three_image from './agenda-section-three.webp';
+
 
 
 function Agenda(){
