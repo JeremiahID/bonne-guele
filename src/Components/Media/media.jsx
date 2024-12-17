@@ -12,22 +12,21 @@ function Media(){
     return (
         <div>
             <Header />
+
             <Hero 
                 Hero = {mediaHero}
             />
+            
             <MediaComponent />
+
             <SectionTwo />
+
             <SectionThree img = {NewsLetter}/>
+
             <Footer />
-
-
-        
-
         </div>
     )
 
 };
-
-
 
 export default Media;
