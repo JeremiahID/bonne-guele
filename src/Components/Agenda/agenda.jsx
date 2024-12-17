@@ -3,8 +3,6 @@ import Header from '../header';
 import Footer from '../footer';
 import SectionTwo from '../section-two';
 
-
-
 function Agenda(){
     return (
         <div>
