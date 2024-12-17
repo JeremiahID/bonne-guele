@@ -20,6 +20,4 @@ function MediaSection(props){
     )
 };
 
-
-
 export default MediaSection;
