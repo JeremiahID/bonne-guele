@@ -1,19 +1,18 @@
 import React from "react";
 import Media from "./Media/media";
 import Agenda from "./Agenda/agenda";
-import Hero from "./hero";
-import Header from "./header";
-import Footer from "./footer";
-import Section from "./section";
-import SectionTwo from "./section-two";
-import SectionThree from "./section-three";
-import boutiques from '../Images/boutiques.jpg';
-import newsletter from '../Images/newsletter.jpg';
-import HomeHero from '../Images/hero-brown.webp';   
-import Cart from "./cart";
+// import Hero from "./hero";
+// import Header from "./header";
+// import Footer from "./footer";
+// import Section from "./section";
+// import SectionTwo from "./section-two";
+// import SectionThree from "./section-three";
+// import boutiques from '../Images/boutiques.jpg';
+// import newsletter from '../Images/newsletter.jpg';
+// import HomeHero from '../Images/hero-brown.webp';   
+// import Cart from "./cart";
 import '../css/App.css';
                                                                                                                                                                             
-
 
 function App(){
     return (
