@@ -18,5 +18,4 @@ function Svg(){
     )
 };
 
-
 export default Svg;
