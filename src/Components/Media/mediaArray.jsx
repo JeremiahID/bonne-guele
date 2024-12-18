@@ -26,6 +26,7 @@ import media_section_nine_right  from './media-section-nine-right.webp';
 import media_section_nine_middle from './media-section-nine-middle.webp';
 import media_section_nine_left from './media-section-nine-left.webp';
 
+
 // array for the various media contents
 const MediaDataArray = [
     {
