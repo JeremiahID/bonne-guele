@@ -1,3 +1,4 @@
+// calling of the various images
 import media_section_one_right  from './media-section-one-right.webp';
 import media_section_one_middle from './media-section-one-middle.webp';
 import media_section_one_left from './media-section-one-left.webp';
