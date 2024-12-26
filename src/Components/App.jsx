@@ -44,10 +44,10 @@ function App(){
 
 
                 {/* Media section */}
-            {/* <Media /> */}
+            <Media />
 
             {/* Agenda page */}
-            <Agenda />
+            {/* <Agenda /> */}
 
             
         </div>
