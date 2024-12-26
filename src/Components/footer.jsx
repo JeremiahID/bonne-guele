@@ -15,7 +15,7 @@ function Footer(){
               Cookie / GDPR Legal This site is protected by reCAPTCHA and Google's Privacy Policy and Terms of Service.
             </p>
         </div>
-    )
+    );
 };
 
 export default Footer;
