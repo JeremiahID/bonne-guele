@@ -57,7 +57,7 @@ function Agenda(){
             <Footer />
 
         </div>
-    )
+    );
 };
 
 
