@@ -47,7 +47,7 @@ function App(){
             <Media />
 
             {/* Agenda page */}
-            {/* <Agenda /> */}
+            <Agenda />
 
             
         </div>
