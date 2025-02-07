@@ -15,12 +15,12 @@ import '../css/App.css';
                                                                                                                                                                             
 
 function App(){
+
     return (
         <div className="">
 
-
             {/* THE CART SECTION */}
-            {/* <Cart /> */}
+            {/* <Cart />  */}
             
                 {/* the header */}
             {/* <Header /> */}
@@ -44,10 +44,12 @@ function App(){
 
 
                 {/* Media section */}
-            <Media />
+            {/* <Media  /> */}
 
             {/* Agenda page */}
-            <Agenda />
+            <Agenda 
+                
+            />
 
             
         </div>
