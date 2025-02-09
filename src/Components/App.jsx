@@ -20,7 +20,7 @@ function App(){
         <div className="">
 
             {/* THE CART SECTION */}
-            {/* <Cart />  */}
+            <Cart /> 
             
                 {/* the header */}
             {/* <Header /> */}

@@ -9,6 +9,7 @@ function SectionTwo(){
             {/* USING THE MAP METHOD */}
             {shippingStorage.map(items =>{
                 return <Details 
+                        key = {items.id}
                         svg = {items.svg}
                         name = {items.name}
                         innerText = {items.innerText}
