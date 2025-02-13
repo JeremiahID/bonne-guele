@@ -4,7 +4,7 @@ import shippingStorage from "./shippingcontainer";
 
 function SectionTwo(){
     return(
-        <div className="details my-4 row flex text-center ">
+        <div className="details my-4 row flex text-center">
 
             {/* USING THE MAP METHOD */}
             {shippingStorage.map(items =>{
