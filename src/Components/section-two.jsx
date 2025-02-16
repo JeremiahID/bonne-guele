@@ -2,6 +2,7 @@ import React from "react";
 import Details from "./shipping";
 import shippingStorage from "./shippingcontainer";
 
+
 function SectionTwo(){
     return(
         <div className="details my-4 row flex text-center">
