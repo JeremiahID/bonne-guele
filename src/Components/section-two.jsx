@@ -21,5 +21,4 @@ function SectionTwo(){
     );
 };
 
-
 export default SectionTwo;
