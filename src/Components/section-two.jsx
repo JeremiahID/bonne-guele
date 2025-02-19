@@ -18,6 +18,7 @@ function SectionTwo(){
 
         </div>
     );
+    
 };
 
 export default SectionTwo;
