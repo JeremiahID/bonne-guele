@@ -4,6 +4,7 @@ import shippingStorage from "./shippingcontainer";
 
 function SectionTwo(){
     return(
+        
         <div className="details my-4 row flex text-center">
 
             {/* USING THE MAP METHOD */}
@@ -17,6 +18,7 @@ function SectionTwo(){
             })};
 
         </div>
+
     );
     
 };
