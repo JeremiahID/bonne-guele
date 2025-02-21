@@ -10,7 +10,7 @@ import Agenda from "./Agenda/agenda";
 // import boutiques from '../Images/boutiques.jpg';
 // import newsletter from '../Images/newsletter.jpg';
 // import HomeHero from '../Images/hero-brown.webp';   
-// import Cart from "./cart";
+import Cart from "./cart";                                                                                                          
 import '../css/App.css';    
                                                                                                                                                                             
 function App(){
@@ -19,7 +19,7 @@ function App(){
         <div className="">
 
             {/* THE CART SECTION */}
-            <Cart /> 
+            {/* <Cart />  */}
             
                 {/* the header */}
             {/* <Header /> */}
@@ -43,12 +43,10 @@ function App(){
 
 
                 {/* Media section */}
-            {/* <Media  /> */}
+            <Media  />
 
             {/* Agenda page */}
-            <Agenda 
-                
-            />
+            {/* <Agenda /> */}
 
             
         </div>

@@ -3,16 +3,16 @@ import cartIcon from '../Images/cart.svg';
 import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
 
-const cartContent = props.cart
+// const cartContent = props.cart
 
 function openCart(){
-    if (cartContent.style.display === "none"){
-        cartContent.style.display = "block";
-    } else {
-        cartContent.style.display = "none";
-    }
+    // if (cartContent.style.display === "none"){
+    //     cartContent.style.display = "block";
+    // } else {
+    //     cartContent.style.display = "none";
+    // }
 
-    console.log("cliked")
+    // console.log("cliked")
 }
 
 function Svg(){
