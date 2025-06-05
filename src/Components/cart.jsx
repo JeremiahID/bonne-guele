@@ -5,11 +5,11 @@ import cart from "../Images/cart.svg"
 function Cart(props){
     return (
         <div>
-             <div className="cart-wrapper position-absolute top-0 end-0 no-scroll" >
+            <div className="cart-wrapper position-fixed top-0 end-0" >
 
                 <div className="cart-container  position-absolute top-0 end-0 ">
 
-                    <div className="cart-head flex ">
+                    <div className="cart-head flex  ">
 
                         <div className="cart-icons-container flex justify-content-between  ">
 
