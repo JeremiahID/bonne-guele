@@ -2,7 +2,7 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import cart from "../Images/cart.svg"
 
-function Cart(){
+function Cart(props){
     return (
         <div>
              <div className="cart-wrapper position-absolute top-0 end-0 no-scroll" >
@@ -23,7 +23,9 @@ function Cart(){
 
                             <div className="close-cart">
                                 {/* <!-- CLOSE CART --> */}
-                                <img className=" close-cart-icon cart-icon mx-2" src={close} alt="close cart icon" />
+                                <button className="svg-button" onClick={props.openCart}>
+                                  <img className=" close-cart-icon cart-icon mx-2" src={close} alt="close cart icon" />
+                                </button>
                             </div>
 
                         </div>

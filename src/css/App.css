@@ -133,6 +133,14 @@ button:hover{
     cursor: pointer;
 }
 
+.svg-button{
+    background-color: transparent !important;
+}
+
+.svg-button:hover{
+    background-color: transparent !important;
+}
+
 /* CART */
 .cart-wrapper{
     background-color: #00000098;

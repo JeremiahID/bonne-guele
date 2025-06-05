@@ -5,25 +5,22 @@ import searchIcon from '../Images/search.svg';
 
 // const cartContent = props.cart
 
-function openCart(){
-    // if (cartContent.style.display === "none"){
-    //     cartContent.style.display = "block";
-    // } else {
-    //     cartContent.style.display = "none";
-    // }
 
-    // console.log("cliked")
-}
 
-function Svg(){
+function Svg(props){
     return (
         <div className='d-flex svg-container'>
+            <button className='svg-button'>
+                 <img  className ='svg' src={searchIcon} alt="searchIcon"  />
+            </button>
 
-        <img  className ='svg' src={searchIcon} alt="searchIcon"  />
+            <button className='svg-button' >
+                <img  className ='svg' src={contactIcon} alt="contactIcon"  />
+            </button>
         
-        <img  className ='svg' src={contactIcon} alt="contactIcon"  />
-
-         <img  className ='svg' src={cartIcon} alt="cartIcon"  onClick = {openCart}/>
+            <button className='svg-button' onClick = {props.openCart} >
+                <img  className ='svg' src={cartIcon} alt="cartIcon" />
+            </button>
               
         </div>
     )

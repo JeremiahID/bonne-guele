@@ -17,9 +17,6 @@ function App(){
 
     return (
         <div className="">
-
-            {/* THE CART SECTION */}
-            {/* <Cart />  */}
             
                 {/* the header */}
             {/* <Header /> */}
@@ -43,10 +40,10 @@ function App(){
 
 
                 {/* Media section */}
-            <Media  />
+            {/* <Media  /> */}
 
             {/* Agenda page */}
-            {/* <Agenda /> */}
+            <Agenda />
 
             
         </div>
