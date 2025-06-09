@@ -5,6 +5,8 @@
  import SectionThree from "./section-three"
  import Footer from "../../Components/footer"
  import HomeHero from "../../Images/hero-brown.webp"
+ import newsLetter from "../../Images/newsletter.jpg"
+
 
 
 
@@ -19,7 +21,9 @@
 
             <SectionTwo />
 
-            <SectionThree />
+            <SectionThree 
+                formImage = {newsLetter}
+            />
 
             <Footer />
         </>

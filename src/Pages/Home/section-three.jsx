@@ -1,7 +1,6 @@
 import React from "react";
 import FormEmail from "../../Components/form-email";
 import SvgEmailLogo from "../../Images/emailLogo.svg"
-import newsLetter from "../../Images/newsletter.jpg"
 
 
 function SectionThree(props){
@@ -9,7 +8,7 @@ function SectionThree(props){
         <div className="boutiques-container  flex mt-4">
             <div className="boutiques row">
                 <div className=" boutiques-content  p-0 col-6  ">
-                    <img src={newsLetter} alt="boutiques-image" className="" />
+                    <img src={props.formImage} alt="boutiques-image" className="" />
                 </div>
                 <div className=" boutiques-content p-0 col-6 bg-blue">
                     <FormEmail 

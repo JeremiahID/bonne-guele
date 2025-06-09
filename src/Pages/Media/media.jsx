@@ -4,11 +4,15 @@ import MediaComponent from "./mediaComponent";
 import SectionTwo from "../Home/section-two";
 import SectionThree from "../Home/section-three";
 import Footer from "../../Components/footer";
+import MediaHero from "../../Images/hero.webp"
+
 function Media(){
     return (
         <div>
 
-            <Hero />
+            <Hero 
+                heroImage = {MediaHero}
+            />
         
             <MediaComponent />
         
