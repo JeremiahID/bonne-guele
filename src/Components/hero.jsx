@@ -1,10 +1,11 @@
 import React from "react";
+import HeroImage from '../Images/hero-brown.webp'
 
-function Hero(props){
+function Hero(){
     return(
         <div className="hero-wrapper d-flex">
            <div className="hero">
-            <img  src={props.Hero} alt="hero-image"  />
+            <img  src={HeroImage} alt="hero-image"  />
            </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import React from "react";
-import FormEmail from "./form-email";
+import FormEmail from "../Components/form-email";
 import SvgEmailLogo from "../Images/emailLogo.svg"
 
 function SectionThree(props){

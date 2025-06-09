@@ -1,12 +1,13 @@
 import React from "react";
-import Form from "./form";
+import Form from "../../Components/form";
+import Boutique from '../../Images/boutiques.jpg'
 
 function Section(props){
     return (
         <div className="boutiques-container  flex mt-4">
             <div className="boutiques row">
                 <div className=" boutiques-content  p-0 col-8  ">
-                    <img src={props.img} alt="boutiques-image" className="" />
+                    <img src={Boutique} alt="boutiques-image" className="" />
                 </div>
                 <div className=" boutiques-content p-0 col-4 ">
                    <Form  

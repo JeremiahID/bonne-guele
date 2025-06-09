@@ -391,19 +391,19 @@ button:hover{
 }
 
 .agenda-section-two-left {
-    background-image: url('../Components/Agenda/agenda-section-two-left.webp');
+    background-image: url('');
     width: 50%; 
     height: 100vh;
 }
 
 .agenda-section-two-right {
-    background-image: url('../Components/Agenda/agenda-section-two-right.webp');
+    background-image: url('');
     width: 50%; 
     height: 100vh;
 }
 
 .agenda-section-three-container{
-    background-image: url('../Components/Agenda/agenda-section-three.webp');
+    background-image: url('');
     background-size: cover;
     width: 90%;
     height: 100vh;

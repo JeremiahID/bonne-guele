@@ -1,6 +1,6 @@
 import React from "react";
-import Details from "./shipping";
-import shippingStorage from "./shippingcontainer";
+import Details from "../Components/shipping";
+import shippingStorage from "../Components/shippingcontainer";
 
 function SectionTwo(){
     return(

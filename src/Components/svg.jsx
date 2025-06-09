@@ -3,9 +3,6 @@ import cartIcon from '../Images/cart.svg';
 import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
 
-// const cartContent = props.cart
-
-
 
 function Svg(props){
     return (

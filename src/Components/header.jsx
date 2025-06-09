@@ -4,6 +4,7 @@ import Svg from "./svg";
 import Cart from "./cart";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 
 function Header(){
 
@@ -18,12 +19,10 @@ function Header(){
             <a href="/" target="_blank" className="company-name flex">
                 <img src={Logo} alt="Logo" className="Logo" />
             </a>
-
-            {/* the nav components */}
+            
             <Nav />
 
-            {/* the svg components */}
-            <Svg   openCart = {handleShowCart} />
+            <Svg  openCart = {handleShowCart} />
             
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
         </div>
