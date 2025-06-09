@@ -4,10 +4,7 @@ import Svg from "./svg";
 import Cart from "./cart";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";
-import Home from "../Pages/Home/home";
-import Media from "../Pages/Media/media";
-import Agenda from "../Pages/Agenda/agenda";
+
 
 
 function Header(){
