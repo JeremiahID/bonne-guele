@@ -7,13 +7,13 @@ function Nav(){
             <ul className=" d-flex   ">
 
                 <li>
-                    <Link to = ''>Ehop</Link>
+                    <Link to="/home">E-shop</Link>
                 </li>
                 <li>
-                    <Link to = ''>Media</Link>
+                    <Link to="/media">Media</Link>
                 </li>
                 <li>
-                    <Link to = ''>Agenda</Link>
+                    <Link to="/agenda">Agenda</Link>
                 </li>
                 <li>
                     <Link to = ''>Concept</Link>
@@ -22,16 +22,8 @@ function Nav(){
                     <Link to = ''>Shop</Link>
                 </li>
 
-                {/* <li><a href="http://" target="_blank" rel="noopener noreferrer"> Media </a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer"> Agenda </a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer"> concepts </a></li>
-                <li><a href="http://" target="_blank" rel="noopener noreferrer"> shops </a></li> */}
-            </ul>
 
-            {/* <Routes>
-                <Route path="./Media/media" component={Media} />
-                <Route path="/agenda" component={Agenda} /> 
-            </Routes> */}
+            </ul>
             
         </div>
     )

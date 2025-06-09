@@ -5,6 +5,10 @@ import Cart from "./cart";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import Home from "../Pages/Home/home";
+import Media from "../Pages/Media/media";
+import Agenda from "../Pages/Agenda/agenda";
+
 
 function Header(){
 
@@ -16,7 +20,7 @@ function Header(){
     }
     return (
         <div className="header d-flex">
-            <a href="/" target="_blank" className="company-name flex">
+            <a href="/home" className="company-name flex">
                 <img src={Logo} alt="Logo" className="Logo" />
             </a>
             

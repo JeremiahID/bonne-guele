@@ -1,6 +1,6 @@
 import React from "react";
-import Details from "../Components/shipping";
-import shippingStorage from "../Components/shippingcontainer";
+import Details from "../../Components/shippingDetails";
+import shippingStorage from "../../Components/shippingcontainer";
 
 function SectionTwo(){
     return(
@@ -11,9 +11,7 @@ function SectionTwo(){
             {shippingStorage.map(items =>{
                 return <Details 
                         key = {items.id}
-                        svg = {items.svg}
-                        name = {items.name}
-                        innerText = {items.innerText}
+                        {...items}
                     />
             })};
 

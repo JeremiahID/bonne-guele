@@ -1,14 +1,11 @@
 import React from 'react';
 import Header from '../../Components/header';
 import Footer from '../../Components/footer';
-import SectionTwo from '../section-two';
+import SectionTwo from '../Home/section-two';
 
 function Agenda(){
     return (
         <div>
-            {/* calling the header component */}
-            <Header />
-
             {/* Agenda section one */}
             <div className=' agenda-section-one-wrapper flex'>
                 <div className='agenda-section-one m-0 flex flex-column justify-content-around '>
