@@ -5,6 +5,7 @@ import SectionTwo from "../Home/section-two";
 import SectionThree from "../Home/section-three";
 import Footer from "../../Components/footer";
 import MediaHero from "../../Images/hero.webp"
+import mediaFormImage from "../../Images/lookbook-sec-eight.webp"
 
 function Media(){
     return (
@@ -18,7 +19,9 @@ function Media(){
         
             <SectionTwo />
 
-            <SectionThree />
+            <SectionThree  
+                formImage = {mediaFormImage}
+            />
 
             <Footer />
         </div>
