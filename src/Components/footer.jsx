@@ -14,6 +14,7 @@ function Footer(){
             <p className='fs-8'>
               Cookie / GDPR Legal This site is protected by reCAPTCHA and Google's Privacy Policy and Terms of Service.
             </p>
+            <p className='fs-8'>All Right Reserved &copy; Design by Jeremiah Efe</p>
         </div>
     );
 };
