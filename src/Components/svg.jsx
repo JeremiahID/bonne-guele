@@ -7,7 +7,7 @@ import searchIcon from '../Images/search.svg';
 function Svg(props){
     return (
         <div className='d-flex svg-container'>
-            <button className='svg-button'>
+            <button className='svg-button' onClick={props.openSearch}>
                  <img  className ='svg' src={searchIcon} alt="searchIcon"  />
             </button>
 

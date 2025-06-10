@@ -3,6 +3,7 @@ import Nav from "./nav";
 import Svg from "./svg";
 import Cart from "./cart";
 import Login from "../Auth/Login";
+import Search from "./search";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";
 
@@ -23,6 +24,12 @@ function Header(){
         setShowLogin(!showlogin)
     }
 
+    const [showsearch, setShowSearch] = useState(false)
+
+    function handleShowSearch(){
+        setShowSearch(!showsearch)
+    }
+
     return (
         <div className="header d-flex">
             <a href="/home" className="company-name flex">
@@ -31,10 +38,12 @@ function Header(){
             
             <Nav />
 
-            <Svg  openCart = {handleShowCart} openLogin = {handleShowLogin}/>
+            <Svg  openCart = {handleShowCart} openLogin = {handleShowLogin} openSearch = {handleShowSearch}/>
             
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
            {showlogin ? <Login openLogin = {handleShowLogin} /> : null }
+           {showsearch? <Search openSearch = {handleShowSearch} /> : null }
+
 
         </div>
     )
