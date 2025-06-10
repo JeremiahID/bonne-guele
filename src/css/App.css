@@ -409,6 +409,13 @@ button:hover{
     height: 100vh;
 }
 
+/* Search styling */
+.search-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000e8;
+}
+
 
 
 /* FOOTER */
