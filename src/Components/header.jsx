@@ -31,7 +31,7 @@ function Header(){
     }
 
     return (
-        <div className="header d-flex">
+        <div className="header d-flex position-fixed top-0">
             <a href="/home" className="company-name flex">
                 <img src={Logo} alt="Logo" className="Logo" />
             </a>

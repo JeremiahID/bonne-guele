@@ -201,8 +201,7 @@ button:hover{
     width: 100%;
     min-height: 85vh;
     box-sizing: border-box;
-    /* position: relative;
-    top: 15vh; */
+    margin-top: 7rem;
 }
 
 .hero{
