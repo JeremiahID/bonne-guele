@@ -11,11 +11,11 @@ function Svg(props){
                  <img  className ='svg' src={searchIcon} alt="searchIcon"  />
             </button>
 
-            <button className='svg-button' >
+            <button className='svg-button' onClick={props.openLogin}>
                 <img  className ='svg' src={contactIcon} alt="contactIcon"  />
             </button>
         
-            <button className='svg-button' onClick = {props.openCart} >
+            <button className='svg-button' onClick={props.openCart} >
                 <img  className ='svg' src={cartIcon} alt="cartIcon" />
             </button>
               
