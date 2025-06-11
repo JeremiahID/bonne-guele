@@ -38,10 +38,10 @@ function Header(){
             
             <Nav />
 
-            <Svg  openCart = {handleShowCart} openLogin = {handleShowLogin} openSearch = {handleShowSearch}/>
+            <Svg  openCart = {handleShowCart} openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
             
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
-           {showlogin ? <Login openLogin = {handleShowLogin} /> : null }
+           {showlogin ? <Login openAccount = {handleShowLogin} /> : null }
            {showsearch? <Search openSearch = {handleShowSearch} /> : null }
 
 

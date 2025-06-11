@@ -11,7 +11,7 @@ function Svg(props){
                  <img  className ='svg' src={searchIcon} alt="searchIcon"  />
             </button>
 
-            <button className='svg-button' onClick={props.openLogin}>
+            <button className='svg-button' onClick={props.openAccount}>
                 <img  className ='svg' src={contactIcon} alt="contactIcon"  />
             </button>
         
