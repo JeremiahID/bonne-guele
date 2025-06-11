@@ -1,7 +1,8 @@
 import React from "react";
 import close from "../Images/close-cart.svg"
 import { Link } from "react-router-dom";
-
+import { Route, Routes } from "react-router-dom";
+import Register from "./Register";
 
 function Login(props) {
     return(
@@ -29,6 +30,9 @@ function Login(props) {
                 </form>
 
             </div>
+            <Routes>
+                <Route path="/login" element = {<Register />} />
+            </Routes>
         </div>
     )
 }
