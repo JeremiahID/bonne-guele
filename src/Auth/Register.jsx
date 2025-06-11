@@ -1,8 +1,7 @@
 import React from "react";
 import close from "../Images/close-cart.svg"
-import { Link } from "react-router-dom";
 import Login from "./Login";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 
 
 
@@ -28,14 +27,14 @@ function Register(props){
                     </button>
                     <p className="m-4 ">
                         Already have an account?
-                        <Link to = '/login' className="fw-bold text-capitalize text-decoration-none px-1">Login</Link>
+                        <Link to = "/login" className="fw-bold text-capitalize text-decoration-none px-1">Login</Link>
                     </p>
                 </form>
 
             </div>
-            <Routes>
-                <Route path="/login" element = {<Login />} />
-            </Routes>
+                <Routes>
+                    <Route path="/login" element = {<Login />} />
+                </Routes>
         </div>
     )
 };

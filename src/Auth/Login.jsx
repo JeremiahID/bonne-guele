@@ -1,15 +1,15 @@
 import React from "react";
 import close from "../Images/close-cart.svg"
-import { Link } from "react-router-dom";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Register from "./Register";
-import Home from "../Pages/Home/home";
+
+
 
 function Login(props) {
     return(
         <div className="login-wrapper d-flex justify-content-center align-items-center position-fixed top-0 end-0">
             <div className="login-form-container d-flex flex-column justify-content-between ">
-                <button className="svg-button login-button p-2 m-0 " onClick={props.openAccount}>
+                <button className="svg-button login-button p-2 m-0 " onClick={props.closeAccount}>
                     <Link to="/home"> 
                         <img className=" close-cart-icon cart-icon " src={close} alt="close cart icon" />
                     </Link>
@@ -28,13 +28,12 @@ function Login(props) {
 
                     <p className="m-4 ">
                         Don't have an account?
-                        <Link to = '/register' className=" text-capitalize text-decoration-none px-1">Resgiter</Link>
+                        <Link to = "/register" className=" text-capitalize text-decoration-none px-1">Resgiter</Link>
                     </p>
                 </form>
 
             </div>
             <Routes>
-                <Route path="/home" element = {<Home />} />
                 <Route path="/register" element = {<Register />} />
             </Routes>
         </div>

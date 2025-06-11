@@ -3,6 +3,7 @@ import Nav from "./nav";
 import Svg from "./svg";
 import Cart from "./cart";
 import Login from "../Auth/Login";
+import Register from "../Auth/Register";
 import Search from "./search";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";
@@ -20,15 +21,21 @@ function Header(){
 
     const [showlogin, setShowLogin] = useState(false)
 
-    function handleShowLogin () {
-        setShowLogin(!showlogin)
+    function handleShowLogin (prevShowLogin) {
+        setShowLogin(prevShowLogin => !prevShowLogin)
+        console.log(prevShowLogin)
         console.log(showlogin)
+        console.log("button clicked")
+
     }
 
-    // function handleCloseIcon(prevShowLogin){
-    //     setShowLogin((prevShowLogin) => {!prevShowLogin})
-    //     console.log(prevShowLogin)
-    // }
+    const [closeIcon, setCloseIcon] = useState(false)
+
+    function handleCloseIcon(){
+        setCloseIcon (!closeIcon)
+        console.log(closeIcon)
+        console.log("button clicked")
+    }
 
     const [showsearch, setShowSearch] = useState(false)
 
@@ -44,11 +51,13 @@ function Header(){
             
             <Nav />
 
-            <Svg  openCart = {handleShowCart} openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
-            
+            <Svg  openCart = {handleShowCart} closeAccount = {handleCloseIcon} openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
+        
+            {/* flip the state of the show login on display */}
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
-           {showlogin && <Login openAccount = {handleShowLogin} /> }
-           {showsearch? <Search openSearch = {handleShowSearch} /> : null }
+           {showlogin && <Register openAccount = {handleShowLogin} /> }
+           {closeIcon && <Login closeAccount = {handleCloseIcon} /> }
+           {showsearch ? <Search openSearch = {handleShowSearch} /> : null }
 
 
         </div>

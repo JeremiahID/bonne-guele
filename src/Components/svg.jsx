@@ -4,18 +4,22 @@ import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
 import { Link } from "react-router-dom";
 import Login from '../Auth/Login';
+import Register from '../Auth/Register';
 import Cart from './cart';
+import Search from './search';
 import { Route, Routes } from "react-router-dom";
 
 function Svg(props){
     return (
         <div className='d-flex svg-container'>
             <button className='svg-button' onClick={props.openSearch}>
-                 <img  className ='svg' src={searchIcon} alt="searchIcon"  />
+                <Link to="/search" >
+                    <img  className ='svg' src={searchIcon} alt="searchIcon"  />
+                </Link>
             </button>
 
             <button className='svg-button' onClick={props.openAccount}>
-                <Link to="/login"  >
+                <Link to="/register"  >
                     <img  className ='svg' src={contactIcon} alt="contactIcon"  />
                 </Link>
             </button>
@@ -27,7 +31,8 @@ function Svg(props){
             </button>
 
             <Routes>
-                <Route path="/login" element = {<Login />} />
+                <Route path="/search" element = {<Search />} />
+                <Route path="/register" element = {<Register />} />
                 <Route path="/cart" element = {<Cart />} />
             </Routes>
               
