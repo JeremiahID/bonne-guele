@@ -2,6 +2,9 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import cart from "../Images/cart.svg"
 
+
+
+
 function Cart(props){
     return (
         <div>
