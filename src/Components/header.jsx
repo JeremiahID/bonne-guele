@@ -24,10 +24,10 @@ function Header(){
         setShowLogin(!showlogin)
     }
 
-    function handleCloseIcon(){
-        setShowLogin((prevShowLogin) => {!prevShowLogin})
-        console.log(prevShowLogin)
-    }
+    // function handleCloseIcon(prevShowLogin){
+    //     setShowLogin((prevShowLogin) => {!prevShowLogin})
+    //     console.log(prevShowLogin)
+    // }
 
     const [showsearch, setShowSearch] = useState(false)
 

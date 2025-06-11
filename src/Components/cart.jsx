@@ -1,7 +1,9 @@
 import React from "react";
 import close from "../Images/close-cart.svg"
 import cart from "../Images/cart.svg"
-
+import { Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Home from "../Pages/Home/home";
 
 
 
@@ -18,7 +20,6 @@ function Cart(props){
 
                             <div className="cart-logo flex justify-content-evenly  p-0"> 
                                 <img className=" close-cart-icon cart-icon " src={cart} alt="close cart icon" /> 
-
                                 <p className="text-capitalize fs-5 fw-bold m-0">cart</p>
 
                             </div>
@@ -27,7 +28,9 @@ function Cart(props){
                             <div className="close-cart">
                                 {/* <!-- CLOSE CART --> */}
                                 <button className="svg-button" onClick={props.openCart}>
-                                  <img className=" close-cart-icon cart-icon mx-2" src={close} alt="close cart icon" />
+                                    <Link to="/home"> 
+                                        <img className=" close-cart-icon cart-icon mx-2" src={close} alt="close cart icon" />
+                                    </Link>
                                 </button>
                             </div>
 
@@ -43,6 +46,9 @@ function Cart(props){
                     
                 </div>
             </div>
+            <Routes>
+                <Route path="/home" element = {<Home />} />
+            </Routes>
         </div>
     )
 };

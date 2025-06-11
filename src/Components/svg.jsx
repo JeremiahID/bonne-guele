@@ -4,6 +4,7 @@ import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
 import { Link } from "react-router-dom";
 import Login from '../Auth/Login';
+import Cart from './cart';
 import { Route, Routes } from "react-router-dom";
 
 function Svg(props){
@@ -20,11 +21,14 @@ function Svg(props){
             </button>
         
             <button className='svg-button' onClick={props.openCart} >
-                <img  className ='svg' src={cartIcon} alt="cartIcon" />
+                <Link to="/cart">
+                    <img  className ='svg' src={cartIcon} alt="cartIcon" />
+                </Link>
             </button>
 
             <Routes>
                 <Route path="/login" element = {<Login />} />
+                <Route path="/cart" element = {<Cart />} />
             </Routes>
               
         </div>
