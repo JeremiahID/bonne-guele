@@ -21,7 +21,7 @@ function Register(props){
                         <input type="text" name="lName" id="lName" aria-label="lName" placeholder="Hopkins" className="login-form-email " />
                         <input type="email" name="Email" id="" aria-label="Email" placeholder="example@gmail.com" className="login-form-email m-3 " />
                         <input type="password" name="password" id="password" aria-label="password" placeholder="Password"  className="login-form-email"/>
-                        <input type="password" name="password" id="password" aria-label="password" placeholder="Confirm password"  className="login-form-email m-3"/>
+                        <input type="password" name="confirmPassword" id="confirmPassword" aria-label="confirmPassword" placeholder="Confirm password"  className="login-form-email m-3"/>
                     </div>
                     <button className="p-1 Login-submit-button">
                         Register

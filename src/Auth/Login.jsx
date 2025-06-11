@@ -2,7 +2,7 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import { Link } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
-// import Register from "./Register";
+import Register from "./Register";
 import Home from "../Pages/Home/home";
 
 function Login(props) {
@@ -28,14 +28,14 @@ function Login(props) {
 
                     <p className="m-4 ">
                         Don't have an account?
-                        {/* <Link to = '/register' className=" text-capitalize text-decoration-none px-1">Resgiter</Link> */}
+                        <Link to = '/register' className=" text-capitalize text-decoration-none px-1">Resgiter</Link>
                     </p>
                 </form>
 
             </div>
             <Routes>
                 <Route path="/home" element = {<Home />} />
-                {/* <Route path="/register" element = {<Register />} /> */}
+                <Route path="/register" element = {<Register />} />
             </Routes>
         </div>
     )

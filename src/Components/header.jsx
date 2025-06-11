@@ -22,6 +22,7 @@ function Header(){
 
     function handleShowLogin () {
         setShowLogin(!showlogin)
+        console.log(showlogin)
     }
 
     // function handleCloseIcon(prevShowLogin){
@@ -46,7 +47,7 @@ function Header(){
             <Svg  openCart = {handleShowCart} openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
             
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
-           {showlogin ? <Login openAccount = {handleShowLogin} /> : null }
+           {showlogin && <Login openAccount = {handleShowLogin} /> }
            {showsearch? <Search openSearch = {handleShowSearch} /> : null }
 
 
