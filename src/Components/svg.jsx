@@ -2,7 +2,9 @@ import React from 'react';
 import cartIcon from '../Images/cart.svg';
 import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
-
+import { Link } from "react-router-dom";
+import Login from '../Auth/Login';
+import { Route, Routes } from "react-router-dom";
 
 function Svg(props){
     return (
@@ -12,12 +14,18 @@ function Svg(props){
             </button>
 
             <button className='svg-button' onClick={props.openAccount}>
-                <img  className ='svg' src={contactIcon} alt="contactIcon"  />
+                <Link to="/login"  >
+                    <img  className ='svg' src={contactIcon} alt="contactIcon"  />
+                </Link>
             </button>
         
             <button className='svg-button' onClick={props.openCart} >
                 <img  className ='svg' src={cartIcon} alt="cartIcon" />
             </button>
+
+            <Routes>
+                <Route path="/login" element = {<Login />} />
+            </Routes>
               
         </div>
     )
