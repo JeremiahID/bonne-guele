@@ -1,26 +1,26 @@
 
-.login-wrapper{
+.account-wrapper{
     background-color: #000000e8;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
 
-.login-form-container{
+.account-form-container{
     width: 35%;
     height: 70%;
     border-radius: 6px;
     background-color:#fff ;
 }
 
-.login-button{
+.account-button{
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: end;
 }
 
-.login-form{
+.account-form{
     height: 90%;
     width: 80%;
 }
@@ -38,7 +38,7 @@
     padding: .2rem;
 }
 
-.Login-submit-button{
+.account-submit-button{
     background-color:rgba(0, 0, 0, 0.993) !important; 
     width: 20vw;
     
