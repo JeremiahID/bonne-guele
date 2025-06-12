@@ -18,9 +18,6 @@ export default function Search(props){
                 <input className="search-bar" type="search" name="search" id="serach" aria-label="search" placeholder="Search" />
                 <img  className ='svg' src={searchIcon} alt="searchIcon"  />
             </div>
-            <Routes>
-                <Route path="/home" element = {<Home />} />
-            </Routes>
         </div>
     )
 }   
