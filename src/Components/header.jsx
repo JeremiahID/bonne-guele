@@ -55,8 +55,8 @@ function Header(){
         
             {/* flip the state of the show login on display */}
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
-           {showlogin && <Register openAccount = {handleShowLogin} /> }
-           {closeIcon && <Login closeAccount = {handleCloseIcon} /> }
+           {showlogin && <Login openAccount = {handleShowLogin} /> }
+           {/* {closeIcon && <Login closeAccount = {handleCloseIcon} /> } */}
            {showsearch ? <Search openSearch = {handleShowSearch} /> : null }
 
 

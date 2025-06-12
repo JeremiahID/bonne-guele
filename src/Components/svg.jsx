@@ -19,7 +19,7 @@ function Svg(props){
             </button>
 
             <button className='svg-button' onClick={props.openAccount}>
-                <Link to="/register"  >
+                <Link to="/login"  >
                     <img  className ='svg' src={contactIcon} alt="contactIcon"  />
                 </Link>
             </button>
@@ -32,7 +32,7 @@ function Svg(props){
 
             <Routes>
                 <Route path="/search" element = {<Search />} />
-                <Route path="/register" element = {<Register />} />
+                <Route path="/login" element = {<Login />} />
                 <Route path="/cart" element = {<Cart />} />
             </Routes>
               
