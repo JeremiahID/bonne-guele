@@ -7,41 +7,47 @@ import Register from "../Auth/Register";
 import Search from "./search";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 
 
 function Header(){
-
+    // state to control the visibility of the cart dialog
+    // This will be used to toggle the cart dialog
     const [showcart , setShowCart] = useState(false)
 
     function handleShowCart (){
         setShowCart(!showcart)
-        console.log(showcart)
+
     }
 
+    // state to control the visibility of the login dialog
+    // This will be used to toggle the login dialog
     const [showlogin, setShowLogin] = useState(false)
 
-    function handleShowLogin (prevShowLogin) {
+    function handleShowLogin () {
         setShowLogin(prevShowLogin => !prevShowLogin)
-        console.log(prevShowLogin)
-        console.log(showlogin)
-        console.log("button clicked")
 
     }
 
-    const [closeIcon, setCloseIcon] = useState(false)
-
-    function handleCloseIcon(){
-        setCloseIcon (!closeIcon)
-        console.log(closeIcon)
-        console.log("button clicked")
-    }
-
+    // state to control the visibility of the search dialog
+    // This will be used to toggle the search dialog
     const [showsearch, setShowSearch] = useState(false)
 
     function handleShowSearch(){
         setShowSearch(!showsearch)
     }
+
+
+    // useLocation hook to get the current location
+    // This will allow us to close dialogs when the route changes
+    const location = useLocation();
+
+    useEffect(() => {
+      // Close dialogs when route changes
+      setShowLogin(false);
+    }, [location]);
 
     return (
         <div className="header d-flex position-fixed top-0">
@@ -51,14 +57,12 @@ function Header(){
             
             <Nav />
 
-            <Svg  openCart = {handleShowCart} closeAccount = {handleCloseIcon} openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
+            <Svg  openCart = {handleShowCart}   openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
         
             {/* flip the state of the show login on display */}
            {showcart ? <Cart openCart = {handleShowCart} /> : null }
-           {showlogin && <Login openAccount = {handleShowLogin} /> }
-           {/* {closeIcon && <Login closeAccount = {handleCloseIcon} /> } */}
            {showsearch ? <Search openSearch = {handleShowSearch} /> : null }
-
+           {showlogin ? <Login openAccount = {handleShowLogin} /> : null }
 
         </div>
     )

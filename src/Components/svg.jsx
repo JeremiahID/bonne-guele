@@ -32,6 +32,7 @@ function Svg(props){
 
             <Routes>
                 <Route path="/search" element = {<Search />} />
+                <Route path="/register" element = {<Register />} />
                 <Route path="/login" element = {<Login />} />
                 <Route path="/cart" element = {<Cart />} />
             </Routes>

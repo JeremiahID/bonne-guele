@@ -7,6 +7,7 @@ import Media from "./Pages/Media/media"
 import Agenda from "./Pages/Agenda/agenda";
 import { Route, Routes } from "react-router-dom";
 import Login from "./Auth/Login";
+import Register from "./Auth/Register";
 
 
 

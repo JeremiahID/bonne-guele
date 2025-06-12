@@ -30,11 +30,7 @@ function Register(props){
                         <Link to = "/login" className="fw-bold text-capitalize text-decoration-none px-1">Login</Link>
                     </p>
                 </form>
-
             </div>
-                <Routes>
-                    <Route path="/login" element = {<Login />} />
-                </Routes>
         </div>
     )
 };
