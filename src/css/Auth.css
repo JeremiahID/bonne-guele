@@ -25,6 +25,11 @@
     width: 80%;
 }
 
+.account-form-auth{
+    height: 40%;
+    width: 80%;
+}
+
 .login-form-email{
     border: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.541);

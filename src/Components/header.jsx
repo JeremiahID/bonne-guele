@@ -46,6 +46,7 @@ function Header(){
 
     useEffect(() => {
       // Close dialogs when route changes
+      console.log("location changed")
       setShowLogin(false);
     }, [location]);
 

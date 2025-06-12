@@ -8,7 +8,8 @@ import Agenda from "./Pages/Agenda/agenda";
 import { Route, Routes } from "react-router-dom";
 import Login from "./Auth/Login";
 import Register from "./Auth/Register";
-import PassAuth from "./Auth/passAuth";
+import GmailAuth from "./Auth/AccountAuth/gmailAuth";
+import PassAuth from "./Auth/AccountAuth/passAuth";
 
 
 
@@ -16,18 +17,20 @@ import PassAuth from "./Auth/passAuth";
 function App(){
 
 
-
-
     return (
         <div className="">
-            <PassAuth />
+            {/* <GmailAuth />    */}
+            {/* <PassAuth /> */}
             {/* <Register /> */}
-            {/* <Header />
+            <Header />
             <Routes>
                 <Route path="/home" element = {<Home />} />
                 <Route path="/media" element = {<Media />} />
                 <Route path="/agenda" element = {<Agenda />} />
-            </Routes>  */}
+                <Route path="/gmailAuth" element = {<GmailAuth />} />
+                <Route path="/passAuth" element = {<PassAuth />} />
+
+            </Routes> 
 
         </div>
     )

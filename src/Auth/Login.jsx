@@ -14,13 +14,13 @@ function Login(props) {
                         <img className=" close-cart-icon cart-icon " src={close} alt="close cart icon" />
                     </Link>
                 </button>
-                <form action="" method="post" className="login-form d-flex flex-column justify-content-center ">
+                <form action="" method="post" className="account-form d-flex flex-column justify-content-center ">
                     <div className="d-flex flex-column ">
                         <input type="email" name="Email" id="" aria-label="Email" placeholder="example@gmail.com" className="login-form-email m-4" />
                         <input type="password" name="password" id="password" aria-label="password" placeholder="Password"  className="login-form-email"/>
                     </div>
                     <div className="forget-password m-4">
-                        <Link to="/"  className="m-4 text-lowercase text-decoration-none">forget password?</Link>
+                        <Link to="/gmailAuth"  className="m-4 text-lowercase text-decoration-none">forget password?</Link>
                     </div>
                     <button className="p-1 account-submit-button">
                         Login
