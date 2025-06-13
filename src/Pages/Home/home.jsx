@@ -15,6 +15,7 @@
         <>
             <Hero  
                 heroImage = {HomeHero}
+                buttonText = "HOME"
             />
 
             <Section />

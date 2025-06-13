@@ -27,7 +27,7 @@ function Cart(props){
                             <div className="close-cart">
                                 {/* <!-- CLOSE CART --> */}
                                 <button className="svg-button" onClick={props.openCart}>
-                                    <Link to="/home"> 
+                                    <Link to="/"> 
                                         <img className=" close-cart-icon cart-icon mx-2" src={close} alt="close cart icon" />
                                     </Link>
                                 </button>

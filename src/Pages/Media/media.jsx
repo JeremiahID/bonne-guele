@@ -13,6 +13,7 @@ function Media(){
 
             <Hero 
                 heroImage = {MediaHero}
+                 buttonText = "MEDIA"
             />
         
             <MediaComponent />

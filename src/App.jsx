@@ -23,15 +23,15 @@ function App(){
             {/* <PassAuth /> */}
             {/* <Register /> */}
             <Header />
-            <Eshop />
-            {/* <Routes>
-                <Route path="/home" element = {<Home />} />
+            <Routes>
+                <Route path="/" element = {<Home />} />
+                <Route path="/eshop" element = {<Eshop />} />
                 <Route path="/media" element = {<Media />} />
                 <Route path="/agenda" element = {<Agenda />} />
                 <Route path="/gmailAuth" element = {<GmailAuth />} />
                 <Route path="/passAuth" element = {<PassAuth />} />
 
-            </Routes>  */}
+            </Routes> 
 
         </div>
     )

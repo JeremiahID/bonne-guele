@@ -215,10 +215,10 @@ button:hover{
     margin: 1rem 1rem;
 }
 
-.hero:hover{
+/* .hero:hover{
     transition: all .5s ease-in-out 0s;
     box-shadow: 0 0 10px 2px #333;
-}
+} */
 
 .hero img{
     width: 100%;

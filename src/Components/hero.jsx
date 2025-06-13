@@ -12,14 +12,14 @@ function Hero(props){
             <img  
                 src={imgSrc} 
                 alt="hero-image"  
-                onMouseOver={() => setImgSrc(props.hoverImage)}
-                onMouseOut={() => setImgSrc(props.heroImage)}
+                // onMouseOver={() => setImgSrc(props.hoverImage)}
+                // onMouseOut={() => setImgSrc(props.heroImage)}
              />
-            <button type="button" className=" hero-button ">
+            {/* <button type="button" className=" hero-button ">
                 <Link to="" className=" hero-link text-decoration-none text-white fw-bolder tracki "> 
                     {props.buttonText}
                 </Link>
-            </button>
+            </button> */}
 
            </div>
         </div>

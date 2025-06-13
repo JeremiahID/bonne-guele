@@ -7,7 +7,7 @@ function Nav(){
             <ul className=" d-flex   ">
 
                 <li>
-                    <Link to="/home">E-shop</Link>
+                    <Link to="/eshop">E-shop</Link>
                 </li>
                 <li>
                     <Link to="/media">Media</Link>
