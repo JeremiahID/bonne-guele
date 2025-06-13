@@ -44,6 +44,7 @@ function Header(){
     // This will allow us to close dialogs when the route changes
     const location = useLocation();
 
+    
     useEffect(() => {
       // Close dialogs when route changes
       console.log("location changed")
