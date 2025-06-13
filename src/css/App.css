@@ -88,15 +88,19 @@ button:hover{
 
 /* End of derfault styling */
 
-.header{
+.header-container{
     width: 100%;
+    height: 15vh;
+    
+}
+
+.header{
+    width: 90%;
     height: 15vh;
     padding: 1.4rem;
     border-bottom: 1px solid burlywood;
-    /* position: fixed;
-    top: 0;
-    z-index: 1; */
     background-color: #fff;
+    z-index: 1;
 
 }
 
@@ -201,11 +205,11 @@ button:hover{
     width: 100%;
     min-height: 85vh;
     box-sizing: border-box;
-    margin-top: 6rem;
+
 }
 
 .hero{
-    width: 85%;
+    width: 90%;
     height: 100vh;
     margin: 1rem 1rem;
 }
@@ -224,7 +228,6 @@ button:hover{
     position: absolute;
     top: 95%;
     right: 43%;
-    z-index: 1;
     border-radius: 50px;
     padding: .5rem 3rem;
 }
@@ -455,15 +458,14 @@ button:hover{
 .collectionHero{
     width: 100%;
     min-height: 85vh;
-
 }
 
 .collection-hero-wrapper{
-    width: 85%;
+    width: 90%;
     height: 100vh;
     background-image: url("../Images/Eshop-two-main.webp");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 0;
 }
