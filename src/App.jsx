@@ -10,7 +10,7 @@ import Login from "./Auth/Login";
 import Register from "./Auth/Register";
 import GmailAuth from "./Auth/AccountAuth/gmailAuth";
 import PassAuth from "./Auth/AccountAuth/passAuth";
-
+import Eshop from "./Pages/Eshop/eshop";
 
 
                                                                                                                                                                             
@@ -23,14 +23,15 @@ function App(){
             {/* <PassAuth /> */}
             {/* <Register /> */}
             <Header />
-            <Routes>
+            <Eshop />
+            {/* <Routes>
                 <Route path="/home" element = {<Home />} />
                 <Route path="/media" element = {<Media />} />
                 <Route path="/agenda" element = {<Agenda />} />
                 <Route path="/gmailAuth" element = {<GmailAuth />} />
                 <Route path="/passAuth" element = {<PassAuth />} />
 
-            </Routes> 
+            </Routes>  */}
 
         </div>
     )
