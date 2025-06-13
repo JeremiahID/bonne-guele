@@ -201,11 +201,11 @@ button:hover{
     width: 100%;
     min-height: 85vh;
     box-sizing: border-box;
-    margin-top: 7rem;
+    margin-top: 5.5rem;
 }
 
 .hero{
-    width: 95%;
+    width: 85%;
     height: 100vh;
     margin: 1rem 1rem;
 }
@@ -220,6 +220,18 @@ button:hover{
     height: inherit;
 }
 
+.hero-button{
+    position: absolute;
+    top: 95%;
+    right: 43%;
+    z-index: 1;
+    border-radius: 50px;
+    padding: .5rem 3rem;
+}
+
+.hero-link{
+    letter-spacing: .2rem;
+}
 
 /* BOUTIQUES */
 
@@ -439,6 +451,27 @@ button:hover{
 }
 
 
+/*  */
+.collectionHero{
+    width: 100%;
+    min-height: 85vh;
+
+}
+
+.collection-hero-wrapper{
+    width: 85%;
+    height: 100vh;
+    background-image: url("../Images/Eshop-two-main.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.eshop-hero-button{
+    border-radius: 50px;
+    padding: .5rem 3rem;
+}
 
 /* FOOTER */
 
