@@ -2,6 +2,7 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import { Link, Route, Routes } from "react-router-dom";
 import Register from "./Register";
+import GmailAuth from "./AccountAuth/gmailAuth";
 
 
 
@@ -35,6 +36,7 @@ function Login(props) {
             </div>
             <Routes>
                 <Route path="/register" element = {<Register />} />
+                <Route path="/gmailAuth" element = {<GmailAuth />} />
             </Routes>
         </div>
     )

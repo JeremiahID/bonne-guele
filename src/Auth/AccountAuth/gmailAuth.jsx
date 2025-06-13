@@ -1,8 +1,7 @@
 import React from "react";
 import close from "../../Images/close-cart.svg"
-import arrowRight from "../../Images/arrowRight.svg";
-import arrowLeft from "../../Images/arrowLeft.svg";
-import { Link } from "react-router-dom";
+import PassAuth from "./passAuth";
+import { Link, Route, Routes } from "react-router-dom";
 
 
 function GmailAuth(props) {
@@ -10,7 +9,7 @@ function GmailAuth(props) {
         <div className="account-wrapper d-flex justify-content-center align-items-center position-fixed top-0 end-0">
             <div className="account-form-container d-flex flex-column justify-content-between ">
                 <button className="svg-button account-button p-2 m-0 " onClick={props.openAccount}>
-                    <Link to="/home">
+                    <Link to="/">
                         <img className=" close-cart-icon cart-icon " src={close} alt="close cart icon" />
                     </Link>
                 </button>
@@ -29,6 +28,9 @@ function GmailAuth(props) {
                     </div>
                 </form>
             </div>
+            <Routes>
+                <Route path="/passAuth" element = {<PassAuth />} />
+            </Routes> 
         </div>
     );
 };

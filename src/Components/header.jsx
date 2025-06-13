@@ -3,7 +3,6 @@ import Nav from "./nav";
 import Svg from "./svg";
 import Cart from "./cart";
 import Login from "../Auth/Login";
-import Register from "../Auth/Register";
 import Search from "./search";
 import Logo from '../Images/logo.svg'
 import { useState } from "react";

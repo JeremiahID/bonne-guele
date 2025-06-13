@@ -2,7 +2,7 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import searchIcon from '../Images/search.svg';
 import { Link, Route, Routes } from "react-router-dom";
-import Home from "../Pages/Home/home";
+
 
 
 export default function Search(props){

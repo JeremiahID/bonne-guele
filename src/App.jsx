@@ -6,8 +6,6 @@ import Home from "./Pages/Home/home";
 import Media from "./Pages/Media/media"
 import Agenda from "./Pages/Agenda/agenda";
 import { Route, Routes } from "react-router-dom";
-import Login from "./Auth/Login";
-import Register from "./Auth/Register";
 import GmailAuth from "./Auth/AccountAuth/gmailAuth";
 import PassAuth from "./Auth/AccountAuth/passAuth";
 import Eshop from "./Pages/Eshop/eshop";
@@ -19,9 +17,6 @@ function App(){
 
     return (
         <div className="">
-            {/* <GmailAuth />    */}
-            {/* <PassAuth /> */}
-            {/* <Register /> */}
             <Header />
             <Routes>
                 <Route path="/" element = {<Home />} />

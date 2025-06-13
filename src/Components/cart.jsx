@@ -2,8 +2,6 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import cart from "../Images/cart.svg"
 import { Link, Route, Routes } from "react-router-dom";
-import Home from "../Pages/Home/home";
-
 
 
 function Cart(props){
@@ -45,9 +43,6 @@ function Cart(props){
                     
                 </div>
             </div>
-            <Routes>
-                <Route path="/home" element = {<Home />} />
-            </Routes>
         </div>
     )
 };

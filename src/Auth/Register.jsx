@@ -1,6 +1,5 @@
 import React from "react";
 import close from "../Images/close-cart.svg"
-import Login from "./Login";
 import { Link, Route, Routes } from "react-router-dom";
 
 

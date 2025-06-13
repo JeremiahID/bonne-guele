@@ -11,7 +11,7 @@ function PassAuth(props) {
         <div className="account-wrapper d-flex justify-content-center align-items-center position-fixed top-0 end-0">
             <div className="account-form-container d-flex flex-column justify-content-between ">
                 <button className="svg-button account-button p-2 m-0 " onClick={props.openAccount}>
-                    <Link to="/home">
+                    <Link to="/">
                         <img className=" close-cart-icon cart-icon " src={close} alt="close cart icon" />
                     </Link>
                 </button>
