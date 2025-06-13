@@ -53,8 +53,8 @@ function Header(){
 
     return (
         <div className="header-container d-flex ">
-            <div className="header d-flex position-fixed top-0">
-                <a href="/home" className="company-name flex">
+            <div className="header d-flex position-fixed top-0 ">
+                <a href="/home" className="company-name flex justify-content-start">
                     <img src={Logo} alt="Logo" className="Logo" />
                 </a>
                 
@@ -63,9 +63,9 @@ function Header(){
                 <Svg  openCart = {handleShowCart}   openAccount = {handleShowLogin} openSearch = {handleShowSearch}/>
             
                 {/* flip the state of the show login on display */}
-            {showcart ? <Cart openCart = {handleShowCart} /> : null }
-            {showsearch ? <Search openSearch = {handleShowSearch} /> : null }
-            {showlogin ? <Login openAccount = {handleShowLogin} /> : null }
+                {showcart ? <Cart openCart = {handleShowCart} /> : null }
+                {showsearch ? <Search openSearch = {handleShowSearch} /> : null }
+                {showlogin ? <Login openAccount = {handleShowLogin} /> : null }
 
             </div>
         </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import Hero from "../../Components/hero";
 import EshopHero from "../../Images/eshophero.webp"
+import hoverImage from "../../Images/EshopHover.webp"
 import { Link } from "react-router-dom";
 
 function Eshop(props){
     return(
         <div>
-          <Hero  heroImage = {EshopHero} buttonText = "FIND OUT" />  
+          <Hero  heroImage = {EshopHero} hoverImage = {hoverImage} buttonText = "FIND OUT" />  
 
           <div className="collectionHero  d-flex" >
             <div className="collection-hero-wrapper d-flex justify-content-center align-items-end">
@@ -18,7 +19,7 @@ function Eshop(props){
             </div>
           </div>
 
-            
+
 
         </div>
     )
