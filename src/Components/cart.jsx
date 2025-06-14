@@ -1,7 +1,7 @@
 import React from "react";
 import close from "../Images/close-cart.svg"
 import cart from "../Images/cart.svg"
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Cart(props){

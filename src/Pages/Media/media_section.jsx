@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 function MediaSection(props){
+    const [cartisfilled, setCartIsFilled] = useState(true)
+
+    function handleIsFilled (){
+        setCartIsFilled(!cartisfilled)
+    }
     return (
         <div className="col-4 flex ">
             <div className=" flex flex-column media-component ">
@@ -14,8 +19,8 @@ function MediaSection(props){
                         <a className="media-component-link" href="">{props.linkThree} </a>
                     </div>
                     <div>
-                        <button className="svg-button  p-2 m-0 " onClick={props.flip}>
-                          <img src = {props.OutlineCart} alt="Cart Display"  className = " cart-svg " />
+                        <button className="svg-button  p-2 m-0 " onClick={handleIsFilled}>
+                          <img src = {cartisfilled ? props.OutlineCart : props.filledCart} alt="Cart Display"  className = " cart-svg " />
                          </button>
                     </div>
                 </div >

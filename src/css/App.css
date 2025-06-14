@@ -146,7 +146,7 @@ button:hover{
 
 .navigation a:hover{
     transition: all .5s ease 0s;
-    color: burlywood;
+    color: rgb(43, 15, 7);
 }
 
 .svg-container{

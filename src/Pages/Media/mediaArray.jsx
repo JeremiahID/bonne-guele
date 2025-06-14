@@ -27,6 +27,8 @@ import media_section_nine_right  from './media-section-nine-right.webp';
 import media_section_nine_middle from './media-section-nine-middle.webp';
 import media_section_nine_left from './media-section-nine-left.webp';
 import outlineCart from "../../Images/outlineCart.svg"
+import filledCart from "../../Images/filledCart.svg"
+
 
 
 // array for the various media contents
@@ -39,6 +41,7 @@ const MediaDataArray = [
         linkTwo : 'test',
         linkThree: 'test',
         OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
