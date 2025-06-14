@@ -6,9 +6,7 @@ import MediaDataArray from "./mediaArray";
 function mediaItem(mediaitems){
     return <MediaSection 
         key = {mediaitems.id}
-        img = {mediaitems.img}
-        title = {mediaitems.title}
-        link = {mediaitems.link}
+        {...mediaitems}
     />
 
 };

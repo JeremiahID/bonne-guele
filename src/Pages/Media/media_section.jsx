@@ -8,9 +8,12 @@ function MediaSection(props){
                     <img className="" src={props.img} alt="image"/>
                 </div>
                 <div className="media-component-links flex justify-content-start">
-                    <a className="media-component-link" href="">{props.link} </a>
-                    <a className="media-component-link" href="">{props.link} </a>
-                    <a className="media-component-link" href="">{props.link} </a>
+                    <div>
+                        <a className="media-component-link" href="">{props.linkOne} </a>
+                        <a className="media-component-link" href="">{props.linkTwo} </a>
+                        <a className="media-component-link" href="">{props.linkThree} </a>
+                    </div>
+                    
                 </div >
                 <div className="media-component-text">
                     <h1 className="fs-6 text-capitalize text-left ">{props.title}</h1>

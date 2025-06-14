@@ -34,189 +34,244 @@ const MediaDataArray = [
         id : 1,
         img: media_section_one_right,
         title: 'Our Team outfit for christmas Eve',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
+
     },
 
     {
         id : 2,
         img: media_section_one_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 3,
         img: media_section_one_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 4,
         img: media_section_two_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 5,
         img: media_section_two_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 6,
         img: media_section_two_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 7,
         img: media_section_three_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 8,
         img: media_section_three_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 9,
         img: media_section_three_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 10,
         img: media_section_four_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 11,
         img: media_section_four_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 12,
         img: media_section_four_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 13,
         img: media_section_five_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 14,
         img: media_section_five_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 15,
         img: media_section_five_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 16,
         img: media_section_six_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 17,
         img: media_section_six_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 18,
         img: media_section_six_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 19,
         img: media_section_seven_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 20,
         img: media_section_seven_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 21,
         img: media_section_seven_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 22,
         img: media_section_eight_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 23,
         img: media_section_eight_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 24,
         img: media_section_eight_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 25,
         img: media_section_nine_right,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
 
     {
         id : 26,
         img: media_section_nine_middle,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     },
     
     {
         id: 27,
         img: media_section_nine_left,
         title: 'The BonneGueule Advent Calendar 2023',
-        link : 'test'
+        linkOne : 'test',
+        linkTwo : 'test',
+        linkThree: 'test'
     }
 
 ];
