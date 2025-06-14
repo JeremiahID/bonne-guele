@@ -118,6 +118,27 @@ button:hover{
     width: 70%;
  
 }
+.navigation ul li{
+    position: relative;
+}
+
+.navigation ul li::after{
+    content: "";
+    position: absolute;
+    background-color: #482916;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navigation ul li:hover::after{
+    width: 100%;
+}
+
+
+
 
 .navigation ul{
     margin: .5rem 0 ;

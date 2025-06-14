@@ -3,10 +3,10 @@ import {  Link } from 'react-router-dom';
 
 function Nav(){
     return (
-        <div className="navigation d-md-block d-none ">
-            <ul className=" d-flex   ">
+        <div className="navigation d-md-block d-none position-relative ">
+            <ul className=" d-flex ">
 
-                <li>
+                <li className="">
                     <Link to="/eshop">E-shop</Link>
                 </li>
                 <li>
