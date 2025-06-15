@@ -1,10 +1,23 @@
 import deleteIcon from "../Images/delete.svg";
 import minus from "../Images/minus.svg";
 import add from "../Images/add.svg"
+import { useState } from "react";
 
 
 
 export default function CartContent(){
+
+    const[count, setCount] = useState(0)
+
+    function IncreaseCount(prevCount){
+        setCount(count + 1)
+    }
+
+    function DecreaseCount(){
+        if (count > 0){
+            setCount(count - 1)
+        }
+    }
     return (
         <div className="cart-body-wrapper">
             <div className="cart-body py-2 flex flex-column justify-content-start">
@@ -23,17 +36,19 @@ export default function CartContent(){
                     </div>
                     <div className="cart-content-section-right d-flex flex-column">
                         <div className="delete-icon flex justify-content-end align-items-start p-1">
-                            <img src={deleteIcon} alt="delete button" className="svg " />
+                            <button type="button" className="svg-button">
+                                <img src={deleteIcon} alt="delete button" className="svg " />
+                            </button>
                         </div>
                         <div className="add-remove-price flex justify-content-around align-items-center">
                             <div>
-                                <button className="svg-button">
+                                <button type="button" className="svg-button" onClick={DecreaseCount}>
                                     <img src={minus} alt="Minus-svg" className="svg" />
                                 </button>
                             </div>
-                            <p className=" fs-5 pt-3">0</p>
+                            <p className=" fs-5 pt-3">{count}</p>
                             <div>
-                                <button className="svg-button">
+                                <button type="button" className="svg-button" onClick={IncreaseCount}>
                                     <img src={add} alt="add-svg" className="svg" />
                                 </button>
                             </div>
