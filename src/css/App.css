@@ -628,4 +628,39 @@ button:hover{
 }
 
 
-/*  */
+
+
+
+
+/* MOBILE STYLING */
+
+@media screen and (max-width: 768px) {
+    .navigation{
+        display: none;
+    }
+
+    .svg{
+        width: 5vw;
+    }
+
+    .svg-hambuger{
+        width: 20%;
+        background-color: transparent !important;
+    }
+
+    .hambuger{
+        color: #181717;
+        width: 5vw;
+    }
+
+    .company-name{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+    }
+
+    .svg-container{
+        width: 20%;
+    }
+}

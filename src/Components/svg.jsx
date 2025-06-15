@@ -11,14 +11,14 @@ import { Route, Routes } from "react-router-dom";
 
 function Svg(props){
     return (
-        <div className='d-flex svg-container'>
-            <button className='svg-button' onClick={props.openSearch}>
+        <div className='d-flex justify-content-md-around justify-content-end svg-container'>
+            <button className='svg-button  d-md-flex d-none' onClick={props.openSearch}>
                 <Link to="/search" >
                     <img  className ='svg' src={searchIcon} alt="searchIcon"  />
                 </Link>
             </button>
 
-            <button className='svg-button' onClick={props.openAccount}>
+            <button className='svg-button  d-md-flex d-none  ' onClick={props.openAccount}>
                 <Link to="/login"  >
                     <img  className ='svg' src={contactIcon} alt="contactIcon"  />
                 </Link>

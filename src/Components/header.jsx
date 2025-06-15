@@ -53,7 +53,14 @@ function Header(){
     return (
         <div className="header-container d-flex ">
             <div className="header d-flex position-fixed top-0 ">
-                <a href="/" className="company-name flex justify-content-start">
+                <button type="button" className="svg-hambuger d-md-none d-flex justify-content-start ">
+                    <svg className="hambuger" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+              
+                </button>
+
+                <a href="/" className="company-name flex justify-content-md-start ">
                     <img src={Logo} alt="Logo" className="Logo" />
                 </a>
                 
