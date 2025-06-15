@@ -663,4 +663,10 @@ button:hover{
     .svg-container{
         width: 20%;
     }
+
+
+    /* CART */
+    .cart-container{
+        width: 100%;
+    }
 }
