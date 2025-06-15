@@ -50,7 +50,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -59,7 +61,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -68,7 +72,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -77,7 +83,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -86,7 +94,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -95,7 +105,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -104,7 +116,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -113,7 +127,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -122,7 +138,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -131,7 +149,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -140,7 +160,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -149,7 +171,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -158,7 +182,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -167,7 +193,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -176,7 +204,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -185,7 +215,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -194,7 +226,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -203,7 +237,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -212,7 +248,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -221,7 +259,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -230,7 +270,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -239,7 +281,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -248,7 +292,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -257,7 +303,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
 
     {
@@ -266,7 +314,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     },
     
     {
@@ -275,7 +325,9 @@ const MediaDataArray = [
         title: 'The BonneGueule Advent Calendar 2023',
         linkOne : 'test',
         linkTwo : 'test',
-        linkThree: 'test'
+        linkThree: 'test',
+        OutlineCart: outlineCart,
+        filledCart: filledCart
     }
 
 ];

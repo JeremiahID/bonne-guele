@@ -2,6 +2,8 @@ import React from "react";
 import close from "../Images/close-cart.svg"
 import cart from "../Images/cart.svg"
 import { Link } from "react-router-dom";
+import EmptyCart from "./emptyCart";
+import CartContent from "./cartContent";
 
 
 function Cart(props){
@@ -10,8 +12,7 @@ function Cart(props){
             <div className="cart-wrapper position-fixed top-0 end-0" >
 
                 <div className="cart-container  position-absolute top-0 end-0 ">
-
-                    <div className="cart-head flex  ">
+                    <div className="cart-head flex">
 
                         <div className="cart-icons-container flex justify-content-between  ">
 
@@ -35,12 +36,10 @@ function Cart(props){
 
                     </div>
 
-                    <div className="cart-body flex flex-column">
-                        <p className="text-capitalize font-fc fs-6">Your cart is empty</p>
+                    <CartContent />
 
-                        <a href="" target="_blank" className="btn-a "> start shopping</a>
-                    </div>
-                    
+                    {/* Empty cart */}
+                    {/* <EmptyCart/> */}
                 </div>
             </div>
         </div>

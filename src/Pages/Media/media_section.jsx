@@ -19,13 +19,14 @@ function MediaSection(props){
                         <a className="media-component-link" href="">{props.linkThree} </a>
                     </div>
                     <div>
-                        <button className="svg-button  p-2 m-0 " onClick={handleIsFilled}>
-                          <img src = {cartisfilled ? props.OutlineCart : props.filledCart} alt="Cart Display"  className = " cart-svg " />
+                        <button className="cart-button  p-2 m-0 " onClick={handleIsFilled}>
+                            <img src = {cartisfilled ? props.OutlineCart : props.filledCart} alt="Cart Display"  className = " cart-svg  " />
                          </button>
                     </div>
                 </div >
-                <div className="media-component-text">
+                <div className="media-component-text d-flex justify-content-between p-1">
                     <h1 className="fs-6 text-capitalize text-left ">{props.title}</h1>
+                    <h1 className="fs-6 text-capitalize text-left ">$120</h1>
                 </div>
             </div>
         </div>
