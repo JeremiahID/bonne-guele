@@ -6,6 +6,7 @@ function MediaSection(props){
     function handleIsFilled (){
         setCartIsFilled(!cartisfilled)
     }
+    
     return (
         <div className="col-4 flex ">
             <div className=" flex flex-column media-component ">
