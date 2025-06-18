@@ -345,7 +345,7 @@ button:hover{
 
 .boutiques-container{
     width: 100%;
-    min-height: 100vh;
+    min-height: 10vh;
 }
 
 .boutiques{
@@ -667,4 +667,19 @@ button:hover{
     .cart-container{
         width: 100%;
     }
+
+
+
+    /*  */
+    .boutiques-container{
+        width: 100%;
+        min-height: 150vh;
+    }
+
+    .boutiques{
+        width: 95%;
+        height: inherit;
+
+    }
+
 }
