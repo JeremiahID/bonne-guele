@@ -9,7 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import GmailAuth from "./Auth/AccountAuth/gmailAuth";
 import PassAuth from "./Auth/AccountAuth/passAuth";
 import Eshop from "./Pages/Eshop/eshop";
-
+import MobileNav from "./Components/mobileNav"
 
 
                                                                                                                                                                             
@@ -18,7 +18,8 @@ function App(){
 
     return (
         <div className="">
-            <Header />
+            <MobileNav />
+            {/* <Header />
             <Routes>
                 <Route path="/" element = {<Home />} />
                 <Route path="/eshop" element = {<Eshop />} />
@@ -27,7 +28,7 @@ function App(){
                 <Route path="/gmailAuth" element = {<GmailAuth />} />
                 <Route path="/passAuth" element = {<PassAuth />} />
 
-            </Routes> 
+            </Routes>  */}
 
         </div>
     )
