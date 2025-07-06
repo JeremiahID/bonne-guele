@@ -5,6 +5,7 @@ import Cart from "./cart";
 import Login from "../Auth/Login";
 import Search from "./search";
 import Logo from '../Images/logo.svg'
+import MobileNav from "./mobileNav";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -81,6 +82,8 @@ function Header(){
                 {showcart ? <Cart openCart = {handleShowCart} /> : null }
                 {showsearch ? <Search openSearch = {handleShowSearch} /> : null }
                 {showlogin ? <Login openAccount = {handleShowLogin} /> : null }
+                {showHambuger ? <MobileNav closeHambuger = {handleNavigations} /> : null }
+
 
             </div>
         </div>

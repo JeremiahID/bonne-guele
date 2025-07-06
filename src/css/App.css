@@ -625,7 +625,36 @@ button:hover{
 }
 
 
+.mobile-navigation{
+    height: 100vh;
+    /* background-color: #004D80; */
+}
 
+.mobile-nav-head{
+    height: 10%;
+}
+
+.mobile-navigation ul{
+    background-color: #301b0f;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0rem !important;
+}
+
+.mobile-navigation ul li {
+    margin:1rem 0 !important;
+    /* background-color: #004D80; */
+    width: 100%;
+    padding: .5rem 0;
+    border-radius: 4px;
+}
+
+.active-link{
+    background-color: #fff;
+    color: #301b0f;
+    width: 100%;
+}
 
 
 
@@ -654,15 +683,21 @@ button:hover{
         height: 90%;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-evenly; */
-        align-items: start;
+        margin: 0rem !important;
     }
 
     .mobile-navigation ul li {
        margin:1rem 0 !important;
-       background-color: #004D80;
+       /* background-color: #004D80; */
        width: 100%;
        padding: .5rem 0;
+       border-radius: 4px;
+    }
+
+    .active-link{
+       background-color: #fff;
+       color: #301b0f;
+       width: 100%;
     }
 
     .mobile-nav-logo{
