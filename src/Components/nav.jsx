@@ -3,7 +3,7 @@ import {  Link } from 'react-router-dom';
 
 function Nav(){
     return (
-        <div className="navigation d-md-block d-none position-relative ">
+        <div className="navigation d-md-block position-relative ">
             <ul className=" d-flex ">
 
                 <li className="">

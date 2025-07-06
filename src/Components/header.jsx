@@ -44,6 +44,7 @@ function Header(){
 
     function handleNavigations(){
        setShowHamburger(!showHambuger)
+       console.log(showHambuger)
     }
 
 
