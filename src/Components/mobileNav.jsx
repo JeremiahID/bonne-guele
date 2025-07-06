@@ -3,11 +3,13 @@ import Logo from '../Images/logo.svg'
 import close from "../Images/close-cart.svg"
 import {  Link } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
+import contactIcon from '../Images/contact.svg';
+import Login from "../Auth/Login";
 
 
 function MobileNav(props){
     return (
-        <div className="mobile-navigation ">
+        <div className="mobile-navigation  position-fixed top-0 end-0 ">
 
             <div className="flex justify-content-around mobile-nav-head">
                 <a href="/" className=" ">
@@ -40,6 +42,16 @@ function MobileNav(props){
 
             </ul>
 
+            <button className='mobile-contact' onClick={props.openAccount}>
+                <Link to="/login"  >
+                    <img  className ='svg' src={contactIcon} alt="contactIcon"  />
+                </Link>
+            </button>
+
+
+            <Routes>
+                <Route path="/login" element = {<Login />} />
+            </Routes>
             
         </div>
     )

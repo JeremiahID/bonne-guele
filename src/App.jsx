@@ -18,8 +18,7 @@ function App(){
 
     return (
         <div className="">
-            <MobileNav />
-            {/* <Header />
+            <Header />
             <Routes>
                 <Route path="/" element = {<Home />} />
                 <Route path="/eshop" element = {<Eshop />} />
@@ -28,7 +27,7 @@ function App(){
                 <Route path="/gmailAuth" element = {<GmailAuth />} />
                 <Route path="/passAuth" element = {<PassAuth />} />
 
-            </Routes>  */}
+            </Routes> 
 
         </div>
     )
