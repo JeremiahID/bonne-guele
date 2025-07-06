@@ -59,3 +59,31 @@
 color: rgba(0, 0, 255, 0.329);
 
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .account-form-container{
+        width: 90%;
+    }
+    .account-form{
+        width: 90%;
+    }
+    .login-form-email{
+        width: 50vw;
+    }
+    .account-submit-button{
+        background-color:rgba(0, 0, 0, 0.993) !important; 
+        width: 50vw;
+    }
+
+    .cart-icon {
+        width: 5vw;
+    }
+    
+
+
+}
+
