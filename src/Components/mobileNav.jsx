@@ -20,20 +20,20 @@ function MobileNav(props){
 
             <ul className="  ">
 
-                <li className="">
-                    <Link to="/eshop">E-shop</Link>
+                <li className=" text-white ">
+                    <Link className="text-white" to="/eshop">E-shop</Link>
                 </li>
                 <li>
-                    <Link to="/media">Media</Link>
+                    <Link className="text-white" to="/media">Media</Link>
                 </li>
                 <li>
-                    <Link to="/agenda">Agenda</Link>
+                    <Link className="text-white" to="/agenda">Agenda</Link>
                 </li>
                 <li>
-                    <Link to = ''>Concept</Link>
+                    <Link className="text-white" to = ''>Concept</Link>
                 </li>
                 <li>
-                    <Link to = ''>Shop</Link>
+                    <Link className="text-white" to = ''>Shop</Link>
                 </li>
 
 
