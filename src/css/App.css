@@ -599,7 +599,7 @@ button:hover{
 /* FOOTER */
 
 .footer{
-    /* position: relative; */
+
     width: 100%;
     height: 50vh;
     background-color: #201f1f0a;
@@ -620,8 +620,8 @@ button:hover{
 }
 
 .ft-line{
-    width: 80%;
-    height: 1vh;
+    width: 90%;
+    height: .1vh;
 }
 
 
@@ -632,38 +632,45 @@ button:hover{
 /* MOBILE STYLING */
 
 @media screen and (max-width: 768px) {
+
+    .header{
+        width: 99%;
+    }
     .navigation{
         display: none;
     }
 
     .svg{
-        width: 5vw;
+        width: 7.5vw;
+        margin: .5rem;
     }
 
     .svg-hambuger{
-        width: 20%;
+        width: 10%;
+        background-color: transparent !important;
+    }
+
+    .svg-hambuger:hover{
         background-color: transparent !important;
     }
 
     .hambuger{
         color: #181717;
-        width: 5vw;
+        width: 9vw;
     }
 
     .company-name{
         width: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center ;
+
     }
 
     .svg-container{
-        width: 20%;
+        width: 10%;
     }
 
 
 
-    /*  */
+    /* mobile hero */
     .hero-wrapper{
         min-height: 55vh;
     }
@@ -675,6 +682,32 @@ button:hover{
     .hero img{
         height: 100%;
     }
+
+
+    /* section Two */
+    .details-content{
+        height: 30vh;
+
+    }
+    .details-img{
+        width: 15vw;
+    }
+
+
+
+
+    /* Mobile footer */
+    .footer-links{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .ft-line{
+        width: 99%;
+        height: .1vh;
+    }
+
+
 
 
     /* CART */
