@@ -5,6 +5,7 @@ import Register from "./Register";
 import GmailAuth from "./AccountAuth/gmailAuth";
 
 
+
 function Login(props) {
     return(
         <div className="account-wrapper d-flex justify-content-center align-items-center position-fixed top-0 end-0">
