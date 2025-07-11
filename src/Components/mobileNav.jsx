@@ -24,20 +24,20 @@ function MobileNav(props){
 
             <ul className="p-2">
 
-                <li className="active-link ">
+                <li className="active-link" onClick={props.closeHambuger} >
                     <Link className="" to="/eshop">E-shop</Link>
                 </li>
                 <li>
-                    <Link className="text-white" to="/media">Media</Link>
+                    <Link className="text-white" to="/media" onClick={props.closeHambuger}>Media</Link>
                 </li>
                 <li>
-                    <Link className="text-white" to="/agenda">Agenda</Link>
+                    <Link className="text-white" to="/agenda" onClick={props.closeHambuger}>Agenda</Link>
                 </li>
                 <li>
-                    <Link className="text-white" to = ''>Concept</Link>
+                    <Link className="text-white" to = '' onClick={props.closeHambuger}>Concept</Link>
                 </li>
                 <li>
-                    <Link className="text-white" to = ''>Shop</Link>
+                    <Link className="text-white" to = '' onClick={props.closeHambuger}>Shop</Link>
                 </li>
 
             </ul>
