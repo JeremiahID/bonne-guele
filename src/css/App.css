@@ -477,7 +477,7 @@ button:hover{
     background-color: transparent !important;
 
 }
-.cart-button{
+.cart-button {
     background-color: transparent!important;
 
 }
@@ -714,7 +714,7 @@ button:hover{
         width: 60%;
     }
 
-    .svg{
+    .mobile-cart-svg{
         width: 7.5vw;
         margin: .5rem;
     }
@@ -758,6 +758,21 @@ button:hover{
     }
 
 
+    /* Collection Hero */
+
+    .collectionHero{
+        min-height: 55vh;
+    }
+
+    .collection-hero-wrapper{
+        height: 55vh;
+    }
+
+    /* media */
+    .cart-svg{
+        width: 6vw;
+    }
+
     /* section Two */
     .details-content{
         height: 30vh;
@@ -765,6 +780,11 @@ button:hover{
     }
     .details-img{
         width: 15vw;
+    }
+
+    /* Cart */
+    .svg{
+        width: 4.3vw;
     }
 
 

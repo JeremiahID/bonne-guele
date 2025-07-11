@@ -26,7 +26,7 @@ function Svg(props){
         
             <button className='svg-button' onClick={props.openCart} >
                 <Link to="/cart">
-                    <img  className ='svg' src={cartIcon} alt="cartIcon" />
+                    <img  className ='mobile-cart-svg svg' src={cartIcon} alt="cartIcon" />
                 </Link>
             </button>
 

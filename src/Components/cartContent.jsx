@@ -62,10 +62,10 @@ export default function CartContent(){
                                     <img src={minus} alt="Minus-svg" className="svg" />
                                 </button>
                             </div>
-                            <p className=" fs-5 pt-3">{count}</p>
+                            <p className=" fs-md-5 pt-3">{count}</p>
                             <div>
                                 <button type="button" className="svg-button" onClick={IncreaseCount}>
-                                    <img src={add} alt="add-svg" className="svg" />
+                                    <img src={add} alt="add-svg" className="svg " />
                                 </button>
                             </div>
                         </div>

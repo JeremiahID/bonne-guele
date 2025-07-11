@@ -8,7 +8,7 @@ function MediaSection(props){
     }
     
     return (
-        <div className="col-4 flex ">
+        <div className="col-md-4 flex ">
             <div className=" flex flex-column media-component ">
                 <div className=" media-component-img ">
                     <img className="" src={props.img} alt="image"/>

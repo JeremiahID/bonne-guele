@@ -17,7 +17,7 @@ function MobileNav(props){
                 </a>
                 <button className="svg-button" onClick={props.closeHambuger}>
                     <Link to="/"> 
-                        <img className="svg" src={close} alt="close cart icon" />
+                        <img className="mobile-nav-svg" src={close} alt="close cart icon" />
                     </Link>
                 </button>
             </div>
@@ -44,7 +44,7 @@ function MobileNav(props){
 
             <button className='mobile-contact' onClick={props.openAccount}>
                 <Link to="/login"  >
-                    <img  className ='svg' src={contactIcon} alt="contactIcon"  />
+                    <img  className ='mobile-nav-svg' src={contactIcon} alt="contactIcon"  />
                 </Link>
             </button>
 
