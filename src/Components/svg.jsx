@@ -1,4 +1,3 @@
-import React from 'react';
 import cartIcon from '../Images/cart.svg';
 import contactIcon from '../Images/contact.svg';
 import searchIcon from '../Images/search.svg';
@@ -8,6 +7,7 @@ import Register from '../Auth/Register';
 import Cart from './cart';
 import Search from './search';
 import { Route, Routes } from "react-router-dom";
+
 
 
 function Svg(props){
