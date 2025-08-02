@@ -8,11 +8,6 @@ import Cart from './cart';
 import Search from './search';
 import { Route, Routes } from "react-router-dom";
 
-
-
-
-
-
 function Svg(props){
     return (
         <div className='d-flex justify-content-md-around justify-content-end svg-container'>
