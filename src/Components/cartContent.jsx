@@ -39,34 +39,40 @@ export default function CartContent(){
             <div className="cart-body py-2 flex flex-column justify-content-start ">
             {/* cart content structure */}
                 <div className="cart-content my-1 flex ">
-                    <div className="cart-content-section-left">
-                        <img src = {cartItemImage} alt="" srcset="" />
-                    </div>
-                    <div className="cart-content-section-middle flex flex-column justify-content-between  align-items-start ">
-                        <p className="">
-                            Lui Vuitton
-                        </p>
-                        <p className="m-0">
-                            ${itemPrice}
-                        </p>
-                    </div>
-                    <div className="cart-content-section-right d-flex flex-column">
-                        <div className="delete-icon flex justify-content-end align-items-start p-1">
-                            <button type="button" className="svg-button">
-                                <img src={deleteIcon} alt="delete button" className="svg " />
-                            </button>
+                    <div className="cart-right-wrapper flex">
+                        <div className="cart-content-section-left">
+                            <img src = {cartItemImage} alt="" srcset="" />
                         </div>
-                        <div className="add-remove-price flex justify-content-around align-items-center">
-                            <div>
-                                <button type="button" className="svg-button" onClick={DecreaseCount}>
-                                    <img src={minus} alt="Minus-svg" className="svg" />
+                        <div className="cart-content-section-middle flex flex-column justify-content-between  align-items-start ">
+                            <p className="">
+                                Lui Vuitton
+                            </p>
+                            <p className="m-0">
+                                ${itemPrice}
+                            </p>
+                        </div>
+                    </div>
+                    
+                    {/* Mobile bottom content */}
+                    <div className="cart-left-wrapper">
+                        <div className="cart-content-section-right d-flex flex-column">
+                            <div className="delete-icon flex justify-content-end align-items-start p-1">
+                                <button type="button" className="svg-button">
+                                    <img src={deleteIcon} alt="delete button" className="svg-cart-content " />
                                 </button>
                             </div>
-                            <p className=" fs-md-5 pt-3">{count}</p>
-                            <div>
-                                <button type="button" className="svg-button" onClick={IncreaseCount}>
-                                    <img src={add} alt="add-svg" className="svg" />
-                                </button>
+                            <div className="add-remove-price flex justify-content-md-around align-items-md-center">
+                                <div>
+                                    <button type="button" className="svg-button" onClick={DecreaseCount}>
+                                        <img src={minus} alt="Minus-svg" className="svg-cart-content" />
+                                    </button>
+                                </div>
+                                <p className=" fs-md-5 fs-3 text-black pt-3">{count}</p>
+                                <div>
+                                    <button type="button" className="svg-button" onClick={IncreaseCount}>
+                                        <img src={add} alt="add-svg" className="svg-cart-content" />
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

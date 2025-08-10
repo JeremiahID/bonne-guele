@@ -158,6 +158,11 @@ button:hover{
     cursor: pointer;
 }
 
+.svg-cart-content{
+    width: 2vw;
+    cursor: pointer;
+}
+
 .svg-button{
     background-color: transparent !important;
 }
@@ -206,6 +211,16 @@ button:hover{
     height: 20vh;
     width: 95%;
     border-radius: 6px;
+}
+
+.cart-right-wrapper{
+    width: 80%;
+    background-color: #181717;
+}
+
+.cart-left-wrapper{
+    width: 20%;
+    background-color: #021f33;
 }
 
 .cart-content:hover{
@@ -837,46 +852,60 @@ button:hover{
         height: inherit;
 
     }
-        
+
+
+
+
+
+
+
+
+
+
+    .cart-content{
+        height: 20vh;
+        width: 95%;
+        border-radius: 6px;
+    }
+
+    .cart-content:hover{
+        transition: all .5s ease ;
+        box-shadow: 1px 1px 5px 1px #181717;
+    }
+
     .cart-content-section-left{
         width: 30%;
         height: inherit;
         
-    }
-    .cart-content-section-left img{
-        width: 100%;
-        height: 100%;
-        border-top-left-radius: 6px;
-        border-bottom-left-radius: 6px;
-
     }
 
     .cart-content-section-middle{
         width: 50%;
         height: inherit;
         padding: .7rem;
-        background-color: #000000;
     }
 
     .cart-content-section-right{
-        width: 20%;
-        height: inherit;
-        background-color: #021f33;
+        background-color: #004D80;
     }
-
 
     .delete-icon{
-        width: 100%;
-        height: 75%;
+        height: 70%;
     }
-
+    
     .add-remove-price{
-        border: 2px solid #181717ce;
-        height: 25%;
-        width: 100%;
-        border-radius: 6px;
+        height: 30%;
     }
 
+
+    .cart-content{
+        flex-direction: column;
+    }
+
+    .svg-cart-content{
+        width: 5vw;
+        cursor: pointer;
+    }
 
 
     /*  */
