@@ -11,8 +11,8 @@ import { Route, Routes } from "react-router-dom";
 
 function Svg(props){
     return (
-        <div className='d-flex justify-content-md-around justify-content-end svg-container'>
-            <button className='svg-button  d-md-flex d-none' onClick={props.openSearch}>
+        <div className='d-flex justify-content-md-around  svg-container'>
+            <button className='svg-button d-md-flex d-none' onClick={props.openSearch}>
                 <Link to="/search" >
                     <img  className ='svg' src={searchIcon} alt="searchIcon"  />
                 </Link>

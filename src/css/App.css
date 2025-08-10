@@ -715,6 +715,7 @@ button:hover{
         /* background-color: #004D80; */
     }
 
+
     .mobile-cart-svg{
         width: 7.5vw;
         margin: .5rem;
@@ -741,11 +742,20 @@ button:hover{
 
     .company-name{
         width: 60%;
-
     }
 
     .svg-container{
-        width: 10%;
+        width: 15%;
+    }
+    
+    .svg-button{
+        width: 6vh;
+    }
+
+    .svg{
+        width: inherit !important;
+        height: 6vh;
+
     }
 
 
