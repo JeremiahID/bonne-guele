@@ -11,6 +11,7 @@ function MobileNav(props){
     return (
         <div className="mobile-navigation  position-fixed top-0 end-0 ">
 
+            {/* The Head section of the mobile nav */}
             <div className="flex justify-content-around mobile-nav-head">
                 <a href="/" className=" ">
                     <img src={Logo} alt="Logo" className="mobile-nav-logo" />
@@ -22,6 +23,8 @@ function MobileNav(props){
                 </button>
             </div>
 
+            
+            {/* The Various Nav links */}
             <ul className="p-2">
 
                 <li className="active-link" onClick={props.closeHambuger} >
@@ -42,6 +45,7 @@ function MobileNav(props){
 
             </ul>
 
+            {/* The Sign Up Button */}
             <button className='mobile-contact' onClick={props.openAccount}>
                 <Link to="/login"  >
                     <img  className ='mobile-nav-svg' src={contactIcon} alt="contactIcon"  />
