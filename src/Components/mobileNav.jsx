@@ -5,6 +5,9 @@ import {  Link } from 'react-router-dom';
 import { Route, Routes } from "react-router-dom";
 import contactIcon from '../Images/contact.svg';
 import Login from "../Auth/Login";
+import Register from "../Auth/Register";
+import GmailAuth from "../Auth/AccountAuth/gmailAuth";
+import PassAuth from "../Auth/AccountAuth/passAuth";
 
 
 function MobileNav(props){
@@ -55,6 +58,10 @@ function MobileNav(props){
 
             <Routes>
                 <Route path="/login" element = {<Login />} />
+                <Route path="/Register" element = {<Register />} />
+                <Route path="/gmailAuth" element = {<GmailAuth />} />
+                <Route path="/passAuth" element = {<PassAuth />} />
+                
             </Routes>
             
         </div>
