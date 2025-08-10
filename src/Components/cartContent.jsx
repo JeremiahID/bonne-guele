@@ -77,6 +77,46 @@ export default function CartContent(){
                         </div>
                     </div>
                 </div>
+
+                                <div className="cart-content my-1 flex ">
+                    <div className="cart-right-wrapper flex">
+                        <div className="cart-content-right-section-one">
+                            <img src = {cartItemImage} alt="" srcset="" />
+                        </div>
+                        <div className="cart-content-right-section-two flex flex-column justify-content-between  align-items-start ">
+                            <p className="">
+                                Lui Vuitton
+                            </p>
+                            <p className="m-0">
+                                ${itemPrice}
+                            </p>
+                        </div>
+                    </div>
+                    
+                    {/* Mobile bottom content */}
+                    <div className="cart-left-wrapper">
+                        <div className="cart-content-left-section d-flex flex-md-column ">
+                            <div className="delete-icon flex justify-content-md-end align-items-start p-1">
+                                <button type="button" className="svg-button">
+                                    <img src={deleteIcon} alt="delete button" className="svg-cart-content " />
+                                </button>
+                            </div>
+                            <div className="add-remove-price flex justify-content-md-around align-items-md-center">
+                                <div>
+                                    <button type="button" className="svg-button" onClick={DecreaseCount}>
+                                        <img src={minus} alt="Minus-svg" className="svg-cart-content" />
+                                    </button>
+                                </div>
+                                <p className=" fs-md-5 fs-3 text-black pt-3">{count}</p>
+                                <div>
+                                    <button type="button" className="svg-button" onClick={IncreaseCount}>
+                                        <img src={add} alt="add-svg" className="svg-cart-content" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
         </div>

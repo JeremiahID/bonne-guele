@@ -204,6 +204,8 @@ button:hover{
 .cart-body{
     width: 100%;
     height: 100%;
+
+
 }
 
 
@@ -267,6 +269,7 @@ button:hover{
     border: 2px solid #181717ce;
     height: 25%;
     width: 100%;
+    border-bottom-right-radius: 6px;
 }
 
 
@@ -907,6 +910,7 @@ button:hover{
         height: 100%;
         width: 60%;
         display: flex;
+     border-bottom-right-radius: 0px;
         justify-content: space-between;
     }
 
