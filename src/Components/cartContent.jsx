@@ -40,10 +40,10 @@ export default function CartContent(){
             {/* cart content structure */}
                 <div className="cart-content my-1 flex ">
                     <div className="cart-right-wrapper flex">
-                        <div className="cart-content-section-left">
+                        <div className="cart-content-right-section-one">
                             <img src = {cartItemImage} alt="" srcset="" />
                         </div>
-                        <div className="cart-content-section-middle flex flex-column justify-content-between  align-items-start ">
+                        <div className="cart-content-right-section-two flex flex-column justify-content-between  align-items-start ">
                             <p className="">
                                 Lui Vuitton
                             </p>
@@ -55,7 +55,7 @@ export default function CartContent(){
                     
                     {/* Mobile bottom content */}
                     <div className="cart-left-wrapper">
-                        <div className="cart-content-section-right d-flex flex-column">
+                        <div className="cart-content-left-section d-flex flex-column">
                             <div className="delete-icon flex justify-content-end align-items-start p-1">
                                 <button type="button" className="svg-button">
                                     <img src={deleteIcon} alt="delete button" className="svg-cart-content " />
