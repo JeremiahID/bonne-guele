@@ -712,9 +712,15 @@ button:hover{
 
     .mobile-nav-logo{
         width: 60%;
+        /* background-color: #004D80; */
     }
 
     .mobile-cart-svg{
+        width: 7.5vw;
+        margin: .5rem;
+    }
+
+    .mobile-nav-svg{
         width: 7.5vw;
         margin: .5rem;
     }
