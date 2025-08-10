@@ -55,8 +55,8 @@ export default function CartContent(){
                     
                     {/* Mobile bottom content */}
                     <div className="cart-left-wrapper">
-                        <div className="cart-content-left-section d-flex flex-column">
-                            <div className="delete-icon flex justify-content-end align-items-start p-1">
+                        <div className="cart-content-left-section d-flex flex-md-column ">
+                            <div className="delete-icon flex justify-content-md-end align-items-start p-1">
                                 <button type="button" className="svg-button">
                                     <img src={deleteIcon} alt="delete button" className="svg-cart-content " />
                                 </button>
