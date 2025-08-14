@@ -9,6 +9,7 @@ import Register from "../Auth/Register";
 import GmailAuth from "../Auth/AccountAuth/gmailAuth";
 import PassAuth from "../Auth/AccountAuth/passAuth";
 
+
 function MobileNav(props){
     return (
         <div className="mobile-navigation  position-fixed top-0 end-0 ">
